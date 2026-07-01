@@ -1,0 +1,2658 @@
+# Goethe-Institut / telc — Deutsch-Test für Zuwanderer (DTZ) alphabetical wordlist (A2–B1)
+# Extracted from the official PDF. 2649 entries. Example sentences deliberately EXCLUDED (copyright);
+# only factual lemma data is kept (headword, article, plural, Partizip II, auxiliary) + an English gloss.
+# Conventions:  N = Nomen (article + plural, reconstructed from the list's umlaut markers)
+#               V = Verb  (partizip_2 + hilfsverb = haben/sein)
+#               X = adjective / adverb / particle / phrase
+# STATUS: grammar 100% complete for all 2649. English meanings authored so far: 207/2649 (alphabetical; A done).
+#         Empty 'english' = still needs a gloss. 'index' is the stable key — author meanings against it.
+index	pos	article	word	plural	partizip_2	hilfsverb	english
+0	X		ab				from; as of
+1	V		abbiegen		abgebogen	sein	to turn (off)
+2	N	die	Abbildung	Abbildungen			illustration; figure
+3	X		aber				but
+4	N	der	Abfall	Abfälle			waste; rubbish
+5	V		abfahren		abgefahren	sein	to depart; leave
+6	N	das	Abgas	Abgase			exhaust fumes
+7	V		abgeben		abgegeben	haben	to hand in; drop off
+8	V		abhängen		abgehangen	haben	to depend
+9	X		abhängig				dependent
+10	V		abheben		abgehoben	haben	to withdraw (money)
+11	V		abholen		abgeholt	haben	to pick up; collect
+12	N	das	Abitur				secondary-school leaving exam
+13	V		ablehnen		abgelehnt	haben	to reject; refuse
+14	V		abmachen		abgemacht	haben	to agree; arrange
+15	V		abnehmen		abgenommen	haben	to lose weight; take off
+16	V		abonnieren		abonniert	haben	to subscribe to
+17	N	das	Abonnement	Abonnements			subscription
+18	N	der	Abschluss	Abschlüse			degree; conclusion
+19	N	der	Absender	Absender			sender
+20	N	die	Absicht	Absichten			intention
+21	X		absolut				absolute(ly)
+22	V		abstimmen		abgestimmt	haben	to vote
+23	N	die	Abteilung	Abteilungen			department
+24	V		abwaschen		abgewaschen	haben	to wash up (dishes)
+25	X		ach				oh
+26	V		achten auf		geachtet	haben	to pay attention to
+27	N	die	Achtung				attention; respect
+28	N	die	Adresse	Adressen			address
+29	N	die	Agentur	Agenturen			agency
+30	X		ähnlich				similar
+31	X		aha				aha; I see
+32	N	die	Ahnung	Ahnungen			idea; clue
+33	N	die	Aktion	Aktionen			campaign; promotion
+34	X		aktiv				active
+35	N	die	Aktivität	Aktivitäten			activity
+36	X		aktuell				current; up to date
+37	V		akzeptieren		akzeptiert	haben	to accept
+38	N	der	Alarm	Alarme			alarm
+39	N	der	Alkohol				alcohol
+40	X		all				all
+41	X		allein				alone
+42	X		aller-				the very (most); -est of all
+43	X		allerdings				however; mind you
+44	X		allgemein				general
+45	N	der	Alltag				everyday life
+46	N	das	Alphabet	Alphabete			alphabet
+47	X		als				when; than; as
+48	X		als ob				as if
+49	X		also				so; therefore
+50	X		alt				old
+51	N	das	Alter				age
+52	N	das	Altenheim	Altenheime			old people's home
+53	N	das	Altersheim	Altersheime			old people's home
+54	X		an				at; on; to
+55	N	die	Ampel	Ampeln			traffic light
+56	N	das	Amt	Ämter			public office; authority
+57	V		sich amüsieren		sich amüsiert	haben	to enjoy oneself
+58	V		analysieren		analysiert	haben	to analyse
+59	V		anbieten		angeboten	haben	to offer
+60	N	das	Angebot	Angebote			offer; special offer
+61	X		ander-				other
+62	X		andererseits				on the other hand
+63	V		ändern		geändert	haben	to change
+64	N	die	Änderung	Änderungen			change; alteration
+65	X		anders				differently
+66	V		anerkennen		anerkannt	haben	to recognise; acknowledge
+67	V		anfangen		angefangen	haben	to begin; start
+68	N	der	Anfang	Anfänge			beginning; start
+69	X		anfangs				at first
+70	N	die	Angabe	Angaben			detail; piece of information
+71	V		angeben		angegeben	haben	to state; give (details)
+72	N	der	Angehörige	Angehörigen			relative; family member
+73	X		angenehm				pleasant
+74	N	die	Angst	Ängste			fear
+75	X		ängstlich				anxious; timid
+76	V		anhaben		angehabt	haben	to have on; wear
+77	V		ankommen		angekommen	sein	to arrive
+78	N	die	Ankunft				arrival
+79	N	die	Anlage	Anlagen			facility; enclosure; system
+80	V		anmelden		angemeldet	haben	to register; sign up
+81	N	die	Anmeldung	Anmeldungen			registration; reception
+82	N	die	Anrede	Anreden			form of address (salutation)
+83	V		anrufen		angerufen	haben	to phone; call
+84	N	der	Anruf	Anrufe			phone call
+85	N	der	Anrufbeantworter	Anrufbeantworter			answering machine
+86	N	die	Ansage	Ansagen			announcement
+87	V		anschaffen		angeschafft	haben	to buy; acquire
+88	V		anschließen		angeschlossen	haben	to connect
+89	N	der	Anschluss	Anschlüsse			connection
+90	V		anschnallen		angeschnallt	haben	to fasten one's seatbelt
+91	V		ansehen		angesehen	haben	to look at; watch
+92	V		ansprechen		angesprochen	haben	to approach; speak to
+93	N	der	Anspruch	Anspruch			claim; entitlement
+94	V		anstellen		angestellt	haben	to switch on; employ; queue
+95	N	der	Angestellte	Angestellten			employee
+96	V		sich anstrengen		sich angestrengt	haben	to make an effort
+97	X		anstrengend				exhausting; strenuous
+98	N	der	Antrag	Anträge			application (form)
+99	V		anwenden		angewandt/ angewendet	haben	to apply; use
+100	X		anwesend				present (in attendance)
+101	V		antworten		geantwortet	haben	to answer
+102	N	die	Antwort	Antworten			answer; reply
+103	N	der	Anwalt	Anwälte			lawyer
+104	V		anzeigen		angezeigt	haben	to report (to police); display
+105	N	die	Anzeige	Anzeigen			advert; (police) report
+106	V		anziehen		angezogen	haben	to put on; get dressed
+107	N	der	Anzug	Anzüge			suit
+108	N	das	Apartment	Apartments			apartment
+109	N	der	Apfel	Äpfel			apple
+110	N	die	Apotheke	Apotheken			pharmacy
+111	N	der	Apparat	Apparate			device; (phone) extension
+112	N	der	Appetit				appetite
+113	N	die	Aprikose	Aprikosen			apricot
+114	V		arbeiten		gearbeitet	haben	to work
+115	N	die	Arbeit	Arbeiten			work; job
+116	N	der	Arbeiter	Arbeiter			worker
+117	N	der	Arbeitgeber	Arbeitgeber			employer
+118	N	der	Arbeitnehmer	Arbeitnehmer			employee
+119	N	die	Arbeitserlaubnis				work permit
+120	X		arbeitslos				unemployed
+121	N	die	Arbeitslosigkeit				unemployment
+122	N	der	Arbeitsplatz	Arbeitsplätze			workplace; job
+123	N	die	Arbeitsstelle	Arbeitsstellen			job; position
+124	V		ärgern		geärgert	haben	to annoy; get annoyed
+125	N	der	Ärger				trouble; annoyance
+126	X		ärgerlich				annoying; annoyed
+127	X		arm				poor
+128	N	der	Arm	Arme			arm
+129	N	die	Art	Arten			kind; type; manner
+130	N	der	Artikel	Artikel			article
+131	N	der	Arzt	Ärzte			doctor
+132	N	das	Asyl				asylum
+133	V		atmen		geatmet	haben	to breathe
+134	X		auch				also; too
+135	X		auf				on; onto; open
+136	N	der	Aufenthalt	Aufenthalte			stay; stopover
+137	V		auffallen		aufgefallen	sein	to stand out; catch the eye
+138	N	die	Aufforderung	Aufforderungen			request; demand
+139	V		aufführen		aufgeführt	haben	to perform (on stage)
+140	N	die	Aufgabe	Aufgaben			task; exercise
+141	V		aufgeben		aufgegeben	haben	to give up; post (a parcel)
+142	V		aufhalten		aufgehalten	haben	to hold up; delay
+143	V		aufheben		aufgehoben	haben	to pick up; keep
+144	V		aufhören		aufgehört	haben	to stop
+145	V		auflösen		aufgelöst	haben	to dissolve
+146	X		aufmerksam				attentive
+147	V		aufnehmen		aufgenommen	haben	to record; take in; admit
+148	N	die	Aufnahme	Aufnahmen			recording; admission
+149	V		aufpassen		aufgepasst	haben	to pay attention; look after
+150	V		aufräumen		aufgeräumt	haben	to tidy up
+151	V		aufregen		aufgeregt	haben	to upset; get worked up
+152	V		auf sein		auf gewesen	sein	to be open; be up (awake)
+153	V		aufstehen		aufgestanden	sein	to get up; stand up
+154	N	der	Auftrag	Aufträge			order; assignment
+155	V		auftreten		aufgetreten	sein	to perform; appear
+156	V		aufwachen		aufgewacht	sein	to wake up
+157	X		aufwärts				upward(s)
+158	N	der	Aufzug	Aufzüge			lift; elevator
+159	N	das	Auge	Augen			eye
+160	N	der	Augenblick	Augenblicke			moment; instant
+161	X		aus				from; out of; off
+162	N	die	Ausbildung	Ausbildungen			vocational training
+163	N	der	Ausbildungsplatz	Ausbildungsplätze			apprenticeship place
+164	X		ausgebildet				trained; qualified
+165	V		ausdrucken		ausgedruckt	haben	to print out
+166	N	der	Ausdruck	Ausdrücke			expression; printout
+167	X		auseinander				apart
+168	N	die	Ausfahrt	Ausfahrten			exit (motorway); driveway
+169	V		ausfallen		ausgefallen	sein	to be cancelled; fail
+170	N	der	Ausflug	Ausflüge			excursion; outing
+171	V		ausfüllen		ausgefüllt	haben	to fill in (a form)
+172	V		ausgeben		ausgegeben	haben	to spend (money)
+173	N	die	Ausgabe	Ausgaben			expense; edition; issue
+174	V		ausgehen		ausgegangen	sein	to go out; turn out
+175	N	der	Ausgang	Ausgänge			exit; way out
+176	N	die	Aushilfe	Aushilfen			temporary help; stand-in
+177	N	die	Auskunft	Auskünfte			information
+178	N	das	Ausland				abroad
+179	N	der	Ausländer	Ausländer			foreigner
+180	X		ausländisch				foreign
+181	V		ausmachen		ausgemacht	haben	to turn off; arrange; matter
+182	N	die	Ausnahme	Ausnahmen			exception
+183	X		ausreichend				sufficient; adequate
+184	V		ausrichten		ausgerichtet	haben	to pass on (a message)
+185	V		ausschließen		ausgeschlossen	haben	to rule out; exclude
+186	X		ausschließlich				exclusively; only
+187	V		aussehen		ausgesehen	haben	to look; appear
+188	V		aus sein		aus gewesen	sein	to be off; be over
+189	X		außen				outside
+190	X		außer				except (for); besides
+191	X		äußerlich				external(ly)
+192	X		außerdem				besides; in addition
+193	X		außerhalb				outside (of)
+194	N	die	Aussicht	Aussichten			view; prospect
+195	V		aussprechen		ausgesprochen	haben	to pronounce
+196	N	die	Aussprache				pronunciation
+197	V		ausstellen		ausgestellt	haben	to display; issue (a document)
+198	N	die	Ausstellung	Ausstellungen			exhibition
+199	V		aussuchen		ausgesucht	haben	to choose; pick out
+200	V		auswählen		ausgewählt	haben	to select
+201	N	der	Ausweis	Ausweise			ID card
+202	V		ausziehen		ausgezogen	haben/sein	to take off; move out
+203	N	der	Auszubildende	Auszubildenden			apprentice; trainee
+204	N	das	Auto	Autos			car
+205	N	die	Autobahn	Autobahnen			motorway
+206	N	der	Automat	Automaten			vending machine
+207	X		automatisch				
+208	N	das	Baby	Babys			
+209	N	der	Babysitter	Babysitter			
+210	V		backen		gebacken	haben	
+211	N	die	Bäckerei	Bäckereien			
+212	V		baden		gebadet	haben	
+213	N	das	Bad	Bäder			
+214	N	die	Badewanne	Badewannen			
+215	N	die	Bahn	Bahnen			
+216	X		S-Bahn				
+217	N	die	Straßenbahn	Straßenbahnen			
+218	N	die	U-Bahn	U-Bahnen			
+219	N	der	Bahnhof	Bahnhöfe			
+220	N	der	Bahnsteig	Bahnsteige			
+221	X		bald				
+222	N	der	Balkon	Balkone			
+223	N	der	Ball	Bälle			
+224	N	die	Banane	Bananen			
+225	N	die	Bank	Bänke			
+226	N	die	Bankleitzahl	Bankleitzahlen			
+227	X		bar				
+228	N	das	Bargeld				
+229	N	der	Bart	Bärte			
+230	N	die	Batterie	Batterien			
+231	N	der	Bauch	Bäuche			
+232	V		bauen		gebaut	haben	
+233	N	der	Bau	Bauten			
+234	N	die	Baustelle	Baustellen			
+235	N	der	Bauer	Bauern			
+236	N	der	Baum	Bäume			
+237	V		beachten		beachtet	haben	
+238	N	der	Beamte	Beamten			
+239	V		beantragen		beantragt	haben	
+240	V		beantworten		beantwortet	haben	
+241	V		sich bedanken		bedankt	haben	
+242	V		bedeuten		bedeutet	haben	
+243	V		bedienen		bedient	haben	
+244	N	die	Bedienungsanleitung	Bedienungsanleitungen			
+245	N	die	Bedingung	Bedingungen			
+246	V		sich beeilen		sich beeilt	haben	
+247	V		beenden		beendet	haben	
+248	V		sich befinden		sich befunden	haben	
+249	X		befreit				
+250	X		befriedigend				
+251	V		begegnen		begegnet	sein	
+252	X		begeistert				
+253	V		beginnen		begonnen	haben	
+254	N	der	Beginn				
+255	V		begleiten		begleitet	haben	
+256	X		begrenzt				
+257	V		begründen		begründet	haben	
+258	N	die	Begründung	Begründungen			
+259	V		begrüßen		begrüßt	haben	
+260	V		behalten		behalten	haben	
+261	V		behandeln		behandelt	haben	
+262	V		behindern		behindert	haben	
+263	N	die	Behörde	Behörden			
+264	X		bei				
+265	X		beid				
+266	N	das	Bein	Beine			
+267	X		beinahe				
+268	N	das	Beispiel	Beispiele			
+269	X		zum Beispiel				
+270	N	der	Beitrag	Beiträge			
+271	X		bekannt				
+272	N	der	Bekannte	Bekannten			
+273	V		bekannt geben		bekannt gegeben	haben	
+274	V		bekommen		bekommen	haben	
+275	N	der	Beleg	Belege			
+276	V		beleidigen		beleidigt	haben	
+277	X		beliebt				
+278	V		bemerken		bemerkt	haben	
+279	V		benötigen		benötigt	haben	
+280	V		benutzen		benutzt	haben	
+281	N	das	Benzin				
+282	V		beobachten		beobachtet	haben	
+283	X		bequem				
+284	V		beraten		beraten	haben	
+285	N	die	Beratung				
+286	V		berechnen		berechnet	haben	
+287	X		berechtigt				
+288	N	der	Bereich	Bereiche			
+289	X		bereit				
+290	X		bereits				
+291	N	der	Berg	Berge			
+292	V		berichten		berichtet	haben	
+293	N	der	Bericht	Berichte			
+294	N	der	Beruf	Berufe			
+295	X		beruflich				
+296	X		berufstätig				
+297	V		beruhigen		beruhigt	haben	
+298	X		berühmt				
+299	V		beschädigen		beschädigt	haben	
+300	V		beschäftigen		beschäftigt	haben	
+301	N	die	Beschäftigung				
+302	N	der	Bescheid	Bescheide			
+303	X		Bescheid sagen				
+304	X		Bescheid geben				
+305	N	die	Bescheinigung	Bescheinigungen			
+306	V		beschließen		beschlossen	haben	
+307	V		beschränken		beschränkt	haben	
+308	V		beschreiben		beschrieben	haben	
+309	N	die	Beschreibung	Beschreibungen			
+310	V		sich beschweren		sich beschwert	haben	
+311	V		besetzen		besetzt	haben	
+312	V		besichtigen		besichtigt	haben	
+313	V		besitzen		besessen	haben	
+314	X		besonder-				
+315	X		besonders				
+316	V		besorgen		besorgt	haben	
+317	V		besprechen		besprochen	haben	
+318	N	die	Besprechung	Besprechungen			
+319	N	die	Besserung				
+320	V		bestätigen		bestätigt	haben	
+321	N	die	Bestätigung	Bestätigungen			
+322	V		bestellen		bestellt	haben	
+323	X		bestimmt				
+324	V		bestrafen		bestraft	haben	
+325	V		besuchen		besucht	haben	
+326	N	der	Besuch	Besuche			
+327	V		sich beteiligen		sich beteiligt	haben	
+328	N	der	Betrag	Beträge			
+329	V		betreuen		betreut	haben	
+330	N	die	Betreuung				
+331	N	der	Betrieb	Betriebe			
+332	N	der	Betriebsrat	Betriebsräte			
+333	V		betrügen		betrogen	haben	
+334	N	das	Bett	Betten			
+335	X		betrunken				
+336	N	die	Bevölkerung				
+337	X		bevor				
+338	V		bewegen		bewegt	haben	
+339	N	die	Bewegung	Bewegungen			
+340	V		beweisen		bewiesen	haben	
+341	N	der	Beweis	Beweise			
+342	V		sich bewerben		sich beworben	haben	
+343	N	die	Bewerbung	Bewerbungen			
+344	N	der	Bewohner	Bewohner			
+345	V		bezahlen		bezahlt	haben	
+346	N	die	Beziehung	Beziehungen			
+347	N	die	Bibliothek	Bibliotheken			
+348	N	das	Bier				
+349	N	der	Biergarten	Biergärten			
+350	V		bieten		geboten	haben	
+351	N	das	Bild	Bilder			
+352	N	der	Bildschirm	Bildschirme			
+353	X		billig				
+354	X		bio(logisch)				
+355	N	die	Birne	Birnen			
+356	X		bis				
+357	X		ein bisschen				
+358	V		bitten		gebeten	haben	
+359	N	die	Bitte	Bitten			
+360	X		bitte				
+361	X		bitter				
+362	X		blass				
+363	N	das	Blatt	Blätte			
+364	X		blau				
+365	V		bleiben		geblieben	sein	
+366	N	der	Bleistift	Bleistifte			
+367	N	der	Blick	Blicke			
+368	N	der	Blitz	Blitze			
+369	X		blond				
+370	X		bloß				
+371	V		blühen		geblüht	haben	
+372	N	die	Blume	Blumen			
+373	N	die	Bluse	Blusen			
+374	V		bluten		geblutet	haben	
+375	N	das	Blut				
+376	N	der	Boden	Böden			
+377	N	der	Bogen	Bögen			
+378	N	die	Bohne	Bohnen			
+379	N	das	Bonbon	Bonbons			
+380	N	das	Boot	Boote			
+381	N	die	Botschaft	Botschaften			
+382	X		böse				
+383	V		braten		gebraten	haben	
+384	N	der	Braten	Braten			
+385	V		brauchen		gebraucht	haben	
+386	X		braun				
+387	V		brechen		gebrochen	haben	
+388	X		breit				
+389	N	die	Breite	Breiten			
+390	V		bremsen		gebremst	haben	
+391	N	die	Bremse	Bremsen			
+392	V		brennen		gebrannt	haben	
+393	N	der	Brief	Briefe			
+394	N	der	Briefkasten	Briefkästen			
+395	N	die	Briefmarke	Briefmarken			
+396	N	der	Briefträger	Briefträger			
+397	N	der	Briefumschlag	Briefumschläge			
+398	N	die	Brille	Brillen			
+399	V		bringen		gebracht	haben	
+400	N	die	Broschüre	Broschüren			
+401	N	das	Brot	Brote			
+402	N	das	Brötchen	Brötchen			
+403	N	die	Brücke	Brücken			
+404	N	der	Bruder	Brüder			
+405	N	die	Brust				
+406	N	das	Buch	Bücher			
+407	N	die	Buchhandlung	Buchhandlungen			
+408	N	die	Bücherei	Büchereien			
+409	V		buchen		gebucht	haben	
+410	V		buchstabieren		buchstabiert	haben	
+411	N	der	Buchstabe	Buchstaben			
+412	X		bunt				
+413	N	der	Bürger	Bürger			
+414	N	das	Bürgerbüro	Bürgerbüros			
+415	N	der	Bürgersteig	Bürgersteige			
+416	N	das	Büro	Büros			
+417	N	die	Bürste	Bürsten			
+418	N	die	Zahnbürste	Zahnbürsten			
+419	N	der	Bus	Busse			
+420	N	die	Butter				
+421	N	das	Café	Cafés			
+422	N	das	Camping				
+423	N	die	CD	CDs			
+424	N	die	CD-ROM	CD-ROMs			
+425	N	die	Chance	Chancen			
+426	X		chatten				
+427	N	der	Chef	Chefs			
+428	N	die	Chemie				
+429	X		circa				
+430	N	der	Club	Clubs			
+431	N	die	Cola				
+432	N	die	Couch	Couchs			
+433	N	der	Cousin	Cousins			
+434	N	der	Computer	Computer			
+435	N	die	Creme	Cremes			
+436	X		da				
+437	X		da sein				
+438	X		dabei sein				
+439	N	das	Dach	Dächer			
+440	X		dafür				
+441	X		dafür sein				
+442	X		dagegen sein				
+443	X		daher				
+444	X		dahin				
+445	X		damals				
+446	N	die	Dame	Damen			
+447	X		damit				
+448	X		danach				
+449	X		daneben				
+450	V		danken		gedankt	haben	
+451	N	der	Dank				
+452	X		danke				
+453	X		dankbar				
+454	X		dann				
+455	X		dass				
+456	N	die	Datei	Dateien			
+457	N	das	Datum	Daten			
+458	V		dauern		gedauert	haben	
+459	N	die	Decke	Decken			
+460	N	die	Demokratie	Demokratien			
+461	X		demokratisch				
+462	V		denken		gedacht	haben	
+463	X		denn				
+464	X		derselbe				
+465	X		deshalb				
+466	X		je … desto				
+467	X		deswegen				
+468	X		deutlich				
+469	N	die	Diät				
+470	X		dicht				
+471	X		dick				
+472	N	der	Dieb	Diebe			
+473	N	der	Dienst				
+474	X		dies				
+475	N	der	Diesel				
+476	X		diesmal				
+477	X		digital				
+478	N	das	Ding	Dinge			
+479	X		direkt				
+480	N	der	Direktor	Direktoren			
+481	N	die	Diskothek	Diskotheken			
+482	V		diskutieren		diskutiert	haben	
+483	N	die	Diskussion	Diskussionen			
+484	X		doch				
+485	N	der	Doktor				
+486	X		doppelt				
+487	X		Doppel-				
+488	N	das	Dorf	Dörfer			
+489	X		dort				
+490	X		dorthin				
+491	N	die	Dose	Dosen			
+492	X		draußen				
+493	V		drehen		gedreht	haben	
+494	X		dringend				
+495	X		drin				
+496	N	die	Drogerie	Drogerien			
+497	X		drüben				
+498	V		drucken		gedruckt	haben	
+499	N	der	Drucker	Drucker			
+500	V		drücken		gedrückt	haben	
+501	N	der	Druck				
+502	X		dumm				
+503	X		dunkel				
+504	X		dünn				
+505	X		durch				
+506	X		durcheinander				
+507	N	die	Durchsage	Durchsagen			
+508	X		durchschnittlich				
+509	X		dürfen				
+510	N	der	Durst				
+511	V		duschen		geduscht	haben	
+512	N	die	Dusche	Duschen			
+513	N	die	DVD	DVDs			
+514	X		eben				
+515	X		ebenfalls				
+516	X		ebenso				
+517	X		echt				
+518	X		die ec-Karte				
+519	N	die	Ecke	Ecken			
+520	X		egal				
+521	N	die	Ehe	Ehen			
+522	N	die	Ehefrau	Ehefrauen			
+523	N	der	Ehegatte	Ehegatten			
+524	N	das	Ehepaar	Ehepaare			
+525	X		eher				
+526	N	die	Ehre				
+527	N	das	Ei	Eier			
+528	X		eigen-				
+529	X		eigentlich				
+530	V		sich eignen		geeignet	haben	
+531	V		eilen		geeilt	haben	
+532	N	die	Eile				
+533	X		eilig				
+534	X		ein-				
+535	N	die	Einbahnstraße	Einbahnstraßen			
+536	V		einbrechen		eingebrochen	sein	
+537	N	der	Einbrecher	Einbrecher			
+538	N	der	Einbruch	Einbrüche			
+539	X		eindeutig				
+540	N	der	Eindruck	Eindrücke			
+541	X		einerseits				
+542	X		einfach				
+543	N	die	Einfahrt	Einfahrten			
+544	V		einfallen		eingefallen	sein	
+545	N	der	Einfall	Einfälle			
+546	N	der	Einfluss	Einflüsse			
+547	N	die	Einführung	Einführungen			
+548	N	der	Eingang	Eingänge			
+549	X		einig-				
+550	V		einigen		geeinigt	haben	
+551	V		einkaufen		eingekauft	haben	
+552	N	der	Einkauf	Einkäufe			
+553	N	das	Einkommen	Einkommen			
+554	V		einladen		eingeladen	haben	
+555	N	die	Einladung	Einladungen			
+556	X		einmal				
+557	V		einnehmen		eingenommen	haben	
+558	N	die	Einnahme	Einnahmen			
+559	V		einpacken		eingepackt	haben	
+560	V		einrichten		eingerichtet	haben	
+561	N	die	Einrichtung	Einrichtungen			
+562	X		einsam				
+563	V		einschalten		eingeschaltet	haben	
+564	X		einschließlich				
+565	N	das	Einschreiben	Einschreiben			
+566	V		einsetzen		eingesetzt	haben	
+567	V		einsteigen		eingestiegen	sein	
+568	V		einstellen		eingestellt	haben	
+569	V		eintragen		eingetragen	haben	
+570	V		eintreten		eingetreten	sein	
+571	N	der	Eintritt				
+572	X		einverstanden				
+573	N	der	Einwohner	Einwohner			
+574	V		einzahlen		eingezahlt	haben	
+575	X		einzeln				
+576	X		Einzel-				
+577	N	die	Einzelheit	Einzelheiten			
+578	X		einzig-				
+579	V		einziehen		eingezogen	sein	
+580	N	das	Eis				
+581	N	das	Eisen				
+582	N	die	Eisenbahn	Eisenbahnen			
+583	X		elegant				
+584	X		elektrisch				
+585	X		Elektro-				
+586	X		elektronisch				
+587	N	die	Eltern				
+588	N	der	Elternabend	Elternabende			
+589	N	der	Elternbeirat	Elternbeiräte			
+590	N	die	E-Mail	E-Mails			
+591	V		empfangen		empfangen	haben	
+592	N	der	Empfang	Empfänge			
+593	V		empfehlen		empfohlen	haben	
+594	N	die	Empfehlung	Empfehlungen			
+595	V		enden		geendet	haben	
+596	N	das	Ende				
+597	X		endgültig				
+598	X		endlich				
+599	N	die	Energie	Energien			
+600	X		eng				
+601	N	der	Enkel	Enkel			
+602	V		entdecken		entdeckt	haben	
+603	X		entfernt				
+604	N	die	Entfernung	Entfernungen			
+605	X		entgegenkommen				
+606	V		enthalten		enthalten	haben	
+607	X		entlang				
+608	V		entlassen		entlassen	haben	
+609	V		entscheiden		entschieden	haben	
+610	N	die	Entscheidung	Entscheidungen			
+611	V		sich entschließen		sich entschlossen	haben	
+612	X		entschlossen sein				
+613	V		entschuldigen		entschuldigt	haben	
+614	N	die	Entschuldigung	Entschuldigungen			
+615	V		entsorgen		entsorgt	haben	
+616	X		entspannend				
+617	V		entstehen		entstanden	sein	
+618	V		enttäuschen		enttäuscht	haben	
+619	N	die	Enttäuschung	Enttäuschungen			
+620	X		entweder ... oder				
+621	V		entwickeln		entwickelt	haben	
+622	N	die	Entwicklung	Entwicklungen			
+623	N	die	Erde				
+624	N	das	Erdgeschoss	Erdgeschosse			
+625	N	das	Ereignis	Ereignisse			
+626	V		erfahren		erfahren	haben	
+627	N	die	Erfahrung	Erfahrungen			
+628	V		erfinden		erfunden	haben	
+629	N	die	Erfindung	Erfindungen			
+630	N	der	Erfolg	Erfolge			
+631	X		erfolgreich				
+632	V		erfordern		erfordert	haben	
+633	X		erforderlich				
+634	V		erfüllen		erfüllt	haben	
+635	V		ergänzen		ergänzt	haben	
+636	N	das	Ergebnis	Ergebnisse			
+637	V		erhalten		erhalten	haben	
+638	V		erhöhen		erhöht	haben	
+639	N	die	Erhöhung	Erhöhungen			
+640	V		sich erholen		sich erholt	haben	
+641	N	die	Erholung	Erholungen			
+642	V		erinnern		erinnert	haben	
+643	N	die	Erinnerung	Erinnerungen			
+644	V		sich erkälten		sich erkältet	haben	
+645	X		erkältet sein				
+646	V		erkennen		erkannt	haben	
+647	V		erklären		erklärt	haben	
+648	N	die	Erklärung	Erklärungen			
+649	V		erkundigen		erkundigt	haben	
+650	V		erlauben		erlaubt	haben	
+651	N	die	Erlaubnis				
+652	V		erleben		erlebt	haben	
+653	N	das	Erlebnis	Erlebnisse			
+654	V		erledigen		erledigt	haben	
+655	V		erleichtern		erleichtert	haben	
+656	N	die	Ermäßigung	Ermäßigungen			
+657	V		ernähren		ernährt	haben	
+658	N	die	Ernährung				
+659	X		ernst				
+660	V		eröffnen		eröffnet	haben	
+661	N	die	Eröffnung	Eröffnungen			
+662	V		erreichen		erreicht	haben	
+663	N	der	Ersatz				
+664	N	das	Ersatzteil	Ersatzteile			
+665	X		erschöpft				
+666	V		erschrecken		erschreckt	haben	
+667	V		ersetzen		ersetzt	haben	
+668	X		erst				
+669	X		erst				
+670	V		erstellen		erstellt	haben	
+671	N	der	Erwachsene	Erwachsenen			
+672	V		erwarten		erwartet	haben	
+673	V		erzählen		erzählt	haben	
+674	V		erziehen		erzogen	haben	
+675	N	die	Erziehung				
+676	X		es				
+677	V		essen		gegessen	haben	
+678	N	das	Essen	Essen			
+679	N	der	Essig				
+680	X		etwa				
+681	X		etwas				
+682	X		eventuell				
+683	X		ewig				
+684	N	der	Experte	Experten			
+685	N	der	Export	Exporte			
+686	X		extra				
+687	X		extrem				
+688	N	die	Fabrik	Fabriken			
+689	N	das	Fach	Fächer			
+690	N	der	Fachmann				
+691	N	die	Fachleute				
+692	N	die	Fähre	Fähren			
+693	V		fahren		gefahren	haben/sein	
+694	N	die	Fahrbahn	Fahrbahnen			
+695	N	der	Fahrer	Fahrer			
+696	N	die	Fahrkarte	Fahrkarten			
+697	N	der	Fahrplan	Fahrpläne			
+698	N	das	Fahrrad	Fahrräder			
+699	N	die	Fahrschule	Fahrschulen			
+700	N	das	Fahrzeug	Fahrzeuge			
+701	X		fair				
+702	V		fallen		gefallen	sein	
+703	N	der	Fall	Fälle			
+704	X		fällig				
+705	X		falls				
+706	X		falsch				
+707	N	die	Familie	Familien			
+708	N	der	Familienstand				
+709	N	der	Fan	Fans			
+710	V		fangen		gefangen	haben	
+711	N	die	Fantasie	Fantasie			
+712	N	die	Farbe	Farben			
+713	X		farbig				
+714	X		fast				
+715	X		faul				
+716	V		faxen		gefaxt	haben	
+717	N	das	Fax	Faxe			
+718	V		fehlen		gefehlt	haben	
+719	N	der	Fehler	Fehler			
+720	V		feiern		gefeiert	haben	
+721	N	die	Feier	Feiern			
+722	N	der	Feierabend				
+723	N	der	Feiertag	Feiertage			
+724	N	das	Fenster	Fenster			
+725	N	die	Ferien				
+726	N	die	Fernbedienung	Fernbedienungen			
+727	V		fernsehen		ferngesehen	haben	
+728	N	das	Fernsehen				
+729	N	der	Fernseher	Fernseher			
+730	X		fertig				
+731	X		fest				
+732	N	das	Fest	Feste			
+733	N	die	Festplatte	Festplatten			
+734	V		festhalten		festgehalten	haben	
+735	V		festlegen		festgelegt	haben	
+736	V		festnehmen		festgenommen	haben	
+737	N	das	Festnetz				
+738	V		festsetzen		festgesetzt	haben	
+739	V		feststellen		festgestellt	haben	
+740	X		fett				
+741	N	das	Fett				
+742	X		feucht				
+743	N	das	Feuer				
+744	N	das	Feuerzeug	Feuerzeuge			
+745	N	die	Feuerwehr	Feuerwehren			
+746	N	das	Fieber				
+747	N	die	Figur	Figuren			
+748	N	der	Film	Filme			
+749	V		finanzieren		finanziert	haben	
+750	X		finanziell				
+751	V		finden		gefunden	haben	
+752	N	der	Finger	Finger			
+753	N	die	Firma	Firmen			
+754	N	der	Fisch	Fische			
+755	X		fit				
+756	N	die	Fitness				
+757	X		flach				
+758	N	die	Fläche	Flächen			
+759	N	die	Flasche	Flaschen			
+760	N	der	Fleck	Flecken			
+761	N	das	Fleisch				
+762	X		fleißig				
+763	X		flexibel				
+764	V		fliegen		geflogen	sein	
+765	V		fliehen		geflohen	sein	
+766	N	die	Flucht				
+767	V		fließen		geflossen	sein	
+768	X		fließend				
+769	N	der	Flug	Flüge			
+770	N	der	Flughafen	Flughäfen			
+771	N	das	Flugzeug	Flugzeuge			
+772	N	der	Flur	Flure			
+773	N	der	Fluss	Flüsse			
+774	N	die	Flüssigkeit	Flüssigkeiten			
+775	V		folgen		gefolgt	sein	
+776	N	die	Folge	Folgen			
+777	X		folgend				
+778	V		fordern		gefordert	haben	
+779	N	die	Forderung	Forderungen			
+780	V		fördern		gefördert	haben	
+781	N	die	Förderung	Förderungen			
+782	N	die	Form	Formen			
+783	N	das	Formular	Formulare			
+784	N	die	Fortbildung	Fortbildungen			
+785	N	der	Fortschritt	Fortschritte			
+786	V		fortsetzen		fortgesetzt	haben	
+787	N	die	Fortsetzung	Fortsetzungen			
+788	V		fotografieren		fotografiert	haben	
+789	N	das	Foto	Fotos			
+790	N	der	Fotoapparat	Fotoapparate			
+791	N	die	Fotografie	Fotografien			
+792	V		fragen		gefragt	haben	
+793	N	die	Frage	Fragen			
+794	N	die	Frau	Frauen			
+795	X		frech				
+796	X		frei				
+797	N	die	Freiheit				
+798	N	die	Freizeit				
+799	X		freiwillig				
+800	X		fremd				
+801	N	die	Fremdsprache	Fremdsprachen			
+802	V		fressen		gefressen	haben	
+803	V		sich freuen		sich gefreut	haben	
+804	N	die	Freude				
+805	N	der	Freund	Freunde			
+806	X		freundlich				
+807	N	die	Freundschaft	Freundschaften			
+808	V		frieren		gefroren	haben	
+809	X		frisch				
+810	N	der	Friseur	Friseure			
+811	N	die	Frist	Fristen			
+812	X		befristet				
+813	X		froh				
+814	N	die	Frucht	Fruchte			
+815	X		früh				
+816	X		früher/früher-				
+817	V		frühstücken		gefrühstückt	haben	
+818	N	das	Frühstück				
+819	V		ühlen		gefühlt	haben	
+820	V		führen		geführt	haben	
+821	N	der	Führerschein	Führerscheine			
+822	N	die	Führung	Führungen			
+823	N	das	Fundbüro	Fundbüros			
+824	V		funktionieren		funktioniert	haben	
+825	X		für				
+826	X		furchtbar				
+827	N	der	Fuß	Füße			
+828	N	der	Fußball	Fußbälle			
+829	N	der	Fußgänger	Fußgänger			
+830	N	die	Fußgängerzone	Fußgängerzonen			
+831	N	die	Gabel	Gabeln			
+832	N	der	Gang	Gänge			
+833	X		ganz				
+834	X		gar				
+835	N	die	Garage	Garagen			
+836	V		garantieren		garantiert	haben	
+837	N	die	Garantie				
+838	N	die	Garderobe	Garderoben			
+839	N	der	Garten	Gärten			
+840	N	das	Gas				
+841	N	der	Gast	Gäste			
+842	N	die	Gaststätte	Gaststätten			
+843	N	das	Gebäude	Gebäude			
+844	V		geben		gegeben	haben	
+845	N	das	Gebäck				
+846	V		geboren werden		geboren worden/ geboren sein	sein	
+847	V		gebrauchen		gebraucht	haben	
+848	N	die	Gebrauchsanweisung	Gebrauchsanweisungen			
+849	N	die	Gebühr	Gebühren			
+850	N	die	Geburt	Geburten			
+851	N	der	Geburtstag	Geburtstage			
+852	N	die	Geduld				
+853	X		geehrt				
+854	X		geeignet sein				
+855	N	die	Gefahr	Gefahren			
+856	N	die	Lebensgefahr				
+857	X		gefährlich				
+858	V		gefallen		gefallen	haben	
+859	V		gefallen lassen		gefallen lassen	haben	
+860	N	das	Gefängnis	Gefängnisse			
+861	N	das	Gefühl	Gefühle			
+862	X		gegen				
+863	N	die	Gegend	Gegenden			
+864	N	der	Gegenstand	Gegenstände			
+865	X		gegenüber				
+866	N	das	Gehalt	Gehälter			
+867	X		geheim				
+868	N	das	Geheimnis	Geheimnisse			
+869	V		gehen		gegangen	sein	
+870	V		gehören		gehört	haben	
+871	X		gelb				
+872	N	das	Geld				
+873	N	das	Taschengeld				
+874	N	die	Gelegenheit	Gelegenheiten			
+875	V		gelingen		gelungen	sein	
+876	V		gelten		gegolten	haben	
+877	X		gemeinsam				
+878	N	das	Gemüse				
+879	X		gemütlich				
+880	X		genau				
+881	X		genauso				
+882	X		genug				
+883	N	die	Genehmigung	Genehmigungen			
+884	V		genügen		genügt	haben	
+885	N	das	Gepäck				
+886	X		gerade				
+887	X		geradeaus				
+888	N	das	Gerät	Geräte			
+889	X		gerecht				
+890	N	das	Gericht	Gerichte			
+891	N	die	Gerichtsverhandlung	Gerichtsverhandlungen			
+892	X		gering				
+893	X		gern/gerne				
+894	X		gesamt-/Gesamt				
+895	N	das	Geschäft	Geschäfte			
+896	N	die	Geschäftsleute				
+897	V		geschehen		geschehen	sein	
+898	N	das	Geschenk	Geschenke			
+899	N	die	Geschichte	Geschichten			
+900	N	das	Geschlecht	Geschlechter			
+901	X		geschieden				
+902	N	das	Geschirr				
+903	N	der	Geschmack				
+904	N	die	Geschwindigkeit	Geschwindigkeiten			
+905	N	die	Geschwindigkeitsbeschränkung	Geschwindigkeitsbeschränkungen			
+906	N	die	Geschwister				
+907	N	die	Gesellschaft	Gesellschaften			
+908	N	das	Gesetz	Gesetze			
+909	N	das	Gesicht	Gesichter			
+910	X		gespannt				
+911	N	das	Gespräch	Gespräche			
+912	X		gestern				
+913	X		gesund				
+914	N	die	Gesundheit				
+915	N	das	Getränk	Getränke			
+916	X		getrennt leben				
+917	N	die	Gewerkschaft	Gewerkschaften			
+918	N	das	Gewicht	Gewichte			
+919	V		gewinnen		gewonnen	haben	
+920	N	der	Gewinn	Gewinne			
+921	N	das	Gewissen				
+922	N	das	Gewitter	Gewitter			
+923	V		gewöhnen		gewöhnt	sein	
+924	X		gewöhnlich				
+925	X		gewohnt				
+926	N	das	Gewürz	Gewürze			
+927	X		gießen				
+928	N	das	Gift	Gifte			
+929	X		giftig				
+930	N	die	Gitarre	Gitarren			
+931	N	das	Glas	Gläser			
+932	X		glatt				
+933	V		glauben		geglaubt	haben	
+934	X		gleich				
+935	X		gleichfalls				
+936	X		gleichberechtigt				
+937	X		gleichzeitig				
+938	N	das	Gleis	Gleise			
+939	N	das	Glück				
+940	X		glücklich				
+941	N	der	Glückwunsch	Glückwünsche			
+942	N	das	Gold				
+943	N	der	Gott	Götter			
+944	N	das	Gras	Gräser			
+945	V		gratulieren		gratuliert	haben	
+946	X		gratis				
+947	X		grau				
+948	V		greifen		gegriffen	haben	
+949	N	die	Grenze	Grenzen			
+950	V		grillen		gegrillt	haben	
+951	N	der	Grill				
+952	N	die	Grippe				
+953	X		groß				
+954	X		Groß-				
+955	N	die	Großstadt	Großstädte			
+956	N	die	Größe	Größen			
+957	X		grün				
+958	V		gründen		gegründet	haben	
+959	N	der	Grund	Gründe			
+960	X		gründlich				
+961	N	das	Grundstück	Grundstücke			
+962	N	die	Gruppe	Gruppen			
+963	V		grüßen		gegrüßt	haben	
+964	N	der	Gruß	Grüße			
+965	V		gucken		geguckt	haben	
+966	X		gültig				
+967	X		günstig				
+968	X		gut				
+969	N	das	Haar	Haare			
+970	V		haben		gehabt	haben	
+971	N	das	Hackfleisch				
+972	N	der	Hafen	Häfen			
+973	N	das	Hähnchen	Hähnchen			
+974	X		halb				
+975	N	die	Halbpension				
+976	X		halbtags				
+977	N	die	Hälfte	Hälften			
+978	N	die	Halle	Hallen			
+979	X		hallo				
+980	N	der	Hals	Hälse			
+981	X		halt				
+982	X		haltbar				
+983	V		halten		gehalten	haben	
+984	N	der	Halt				
+985	N	die	Haltestelle	Haltestellen			
+986	N	der	Hammer	Hämmer			
+987	N	die	Hand	Hände			
+988	N	das	Handtuch	Handtücher			
+989	V		handeln		gehandelt	haben	
+990	N	der	Handel				
+991	N	der	Händler	Händler			
+992	N	der	Handwerker	Handwerker			
+993	N	das	Handy	Handys			
+994	V		hängen		gehängt	haben	
+995	X		hart				
+996	V		hassen		gehasst	haben	
+997	X		hässlich				
+998	X		häufig				
+999	X		Haupt-				
+1000	N	die	Hauptstadt	Hauptstädte			
+1001	N	der	Hauptbahnhof	Hauptbahnhöfe			
+1002	N	das	Haus	Häuser			
+1003	N	die	Hausaufgabe	Hausaufgaben			
+1004	N	die	Hausfrau				
+1005	N	der	Haushalt	Haushalte			
+1006	N	der	Hausmeister	Hausmeister			
+1007	N	die	Haut				
+1008	V		heben		gehoben	haben	
+1009	N	das	Heft	Hefte			
+1010	N	das	Heim	Heime			
+1011	N	die	Heimat				
+1012	X		heimlich				
+1013	N	das	Heimweh				
+1014	V		heiraten		geheiratet	haben	
+1015	X		heiß				
+1016	V		heißen		geheißen	haben	
+1017	V		heizen		geheizt	haben	
+1018	N	die	Heizung	Heizungen			
+1019	V		helfen		geholfen	haben	
+1020	X		hell				
+1021	N	das	Hemd	Hemden			
+1022	X		her				
+1023	X		heraus-				
+1024	V		rausfinden		herausgefunden	haben	
+1025	N	der	Herd	Herde			
+1026	X		herein-				
+1027	N	die	Herkunft				
+1028	N	das	Herkunftsland	Herkunftsländer			
+1029	N	der	Herr	Herren			
+1030	V		herstellen		hergestellt	haben	
+1031	N	der	Hersteller	Hersteller			
+1032	X		herunter-				
+1033	V		runterladen		heruntergeladen	haben	
+1034	V		runterfahren		heruntergefahren	haben	
+1035	N	das	Herz	Herzen			
+1036	X		herzlich				
+1037	X		heute				
+1038	X		hier				
+1039	X		hierher				
+1040	N	die	Hilfe				
+1041	N	der	Himmel				
+1042	X		hinten				
+1043	X		hinter/hinter				
+1044	X		hinterher				
+1045	V		hinterlassen		hinterlassen	haben	
+1046	X		hinweisen				
+1047	X		historisch				
+1048	N	der	Hit	Hits			
+1049	N	die	Hitze				
+1050	N	das	Hobby	Hobbys			
+1051	X		hoch				
+1052	N	die	Höhe				
+1053	X		höchstens				
+1054	N	die	Hochzeit	Hochzeiten			
+1055	N	der	Hof	Höfe			
+1056	N	der	Bauernhof	Bauernhöfe			
+1057	V		hoffen		gehofft	haben	
+1058	X		hoffentlich				
+1059	N	die	Hoffnung	Hoffnungen			
+1060	X		höflich				
+1061	V		holen		geholt	haben	
+1062	N	das	Holz				
+1063	N	der	Honig				
+1064	V		hören		gehört	haben	
+1065	N	die	Hose	Hosen			
+1066	N	das	Hotel	Hotels			
+1067	X		hübsch				
+1068	N	das	Hühnchen	Hühnchen			
+1069	N	der	Humor				
+1070	N	der	Hund	Hunde			
+1071	N	der	Hunger				
+1072	X		hungrig				
+1073	V		hupen		gehupt	haben	
+1074	V		husten		gehustet	haben	
+1075	N	der	Husten				
+1076	N	der	Hut	Hüte			
+1077	N	der	ICE				
+1078	X		ideal				
+1079	N	die	Idee	Ideen			
+1080	X		illegal				
+1081	X		immer				
+1082	N	der	Import	Importe			
+1083	X		in				
+1084	V		impfen		geimpft	haben	
+1085	N	die	Industrie	Industrien			
+1086	N	das	Industriegebiet				
+1087	N	die	Infektion	Infektionen			
+1088	V		informieren		informiert	haben	
+1089	N	die	Information	Informationen			
+1090	N	der	Ingenieur	Ingenieure			
+1091	N	der	Inhalt	Inhalte			
+1092	X		inklusive				
+1093	X		innen				
+1094	N	die	Innenstadt	Innenstädte			
+1095	X		inner-				
+1096	X		innerhalb				
+1097	N	die	Insel	Inseln			
+1098	X		insgesamt				
+1099	V		installieren		installiert	haben	
+1100	N	das	Institut	Institute			
+1101	N	das	Instrument	Instrumente			
+1102	V		integrieren		integriert	haben	
+1103	N	die	Integration				
+1104	N	der	Integrationskurs	Integrationskurse			
+1105	X		intelligent				
+1106	N	die	Intelligenz				
+1107	X		intensiv				
+1108	N	der	Intensivkurs	Intensivkurse			
+1109	V		interessieren		interessiert	sein	
+1110	X		interessant				
+1111	N	das	Interesse	Interessen			
+1112	X		interkulturell				
+1113	X		international				
+1114	N	das	Internet				
+1115	N	der	Internetanschluss				
+1116	N	das	Internetcafé	Internetcafés			
+1117	N	das	Interview	Interviews			
+1118	X		inzwischen				
+1119	X		irgend-				
+1120	X		irgendein				
+1121	X		irgendwann				
+1122	V		irren		geirrt	haben	
+1123	V		isolieren		isoliert	haben	
+1124	X		ja				
+1125	N	die	Jacke	Jacken			
+1126	N	die	Jahreskarte	Jahreskarten			
+1127	N	der	Jazz				
+1128	X		je				
+1129	X		je … desto …				
+1130	N	die	Jeans				
+1131	X		jeder				
+1132	X		jederzeit				
+1133	X		jedes Mal				
+1134	X		jemals				
+1135	X		jemand				
+1136	X		jetzt				
+1137	X		jeweils				
+1138	V		jobben		gejobbt	haben	
+1139	N	der	Job	Jobs			
+1140	V		joggen		gejoggt	sein	
+1141	N	der	Journalist	Journalisten			
+1142	N	die	Jugend				
+1143	N	das	Jugendamt				
+1144	N	der	Jugendliche	Jugendlichen			
+1145	X		jung				
+1146	N	der	Junge	Jungen			
+1147	N	die	Kabine	Kabinen			
+1148	N	der	Kaffee				
+1149	N	der	Kalender	Kalender			
+1150	X		kalt				
+1151	N	die	Kälte				
+1152	N	die	Kamera	Kameras			
+1153	V		kämpfen		gekämpft	haben	
+1154	N	der	Kampf	Kämpfe			
+1155	N	der	Kanal	Kanäle			
+1156	N	die	Kanne	Kannen			
+1157	N	die	Kantine	Kantinen			
+1158	N	das	Kapitel	Kapitel			
+1159	X		kaputt				
+1160	X		kaputtgehen				
+1161	X		kaputtmachen				
+1162	N	die	Karriere	Karrieren			
+1163	N	die	Karte	Karten			
+1164	N	die	Kartoffel	Kartoffeln			
+1165	N	der	Käse				
+1166	N	die	Kasse	Kassen			
+1167	N	der	Kasten	Kästen			
+1168	N	der	Katalog	Kataloge			
+1169	N	die	Katastrophe	Katastrophen			
+1170	N	die	Katze	Katzen			
+1171	V		kaufen		gekauft	haben	
+1172	N	der	Kauf				
+1173	N	der	Käufer	Käufer			
+1174	N	das	Kaufhaus	Kaufhäuser			
+1175	X		kaum				
+1176	X		kein-				
+1177	N	der	Keller	Keller			
+1178	N	der	Kellner	Kellner			
+1179	V		kennen		gekannt	haben	
+1180	N	die	Kenntnisse				
+1181	V		kennenlernen		kennengelernt	haben	
+1182	N	das	Kennzeichen	Kennzeichen			
+1183	N	die	Kerze	Kerzen			
+1184	N	die	Kette	Ketten			
+1185	N	das	Kind	Kinder			
+1186	N	der	Kindergarten	Kindergärten			
+1187	N	der	Kinderwagen	Kinderwagen			
+1188	N	die	Kindheit				
+1189	N	die	Kita				
+1190	N	das	Kino	Kinos			
+1191	N	der	Kiosk	Kioske			
+1192	N	die	Kirche	Kirchen			
+1193	N	das	Kissen	Kissen			
+1194	V		klappen		geklappt	haben	
+1195	X		klar				
+1196	V		klären		geklärt	haben	
+1197	N	die	Klasse	Klassen			
+1198	N	die	Klassenarbeit	Klassenarbeiten			
+1199	X		klasse				
+1200	N	das	Klavier	Klaviere			
+1201	V		kleben		geklebt	haben	
+1202	N	das	Kleid	Kleider			
+1203	N	die	Kleidung				
+1204	X		klein				
+1205	V		klicken		geklickt	haben	
+1206	N	der	Klick	Klick			
+1207	N	das	Klima				
+1208	N	die	Klimaanlage	Klimaanlagen			
+1209	V		klingeln		geklingelt	haben	
+1210	N	die	Klingel	Klingeln			
+1211	V		klingen		geklungen	haben	
+1212	N	die	Klinik	Kliniken			
+1213	V		klopfen		geklopft	haben	
+1214	N	der	Kloß	Klöße			
+1215	X		knapp				
+1216	N	die	Kneipe	Kneipen			
+1217	N	das	Knie	Knie			
+1218	N	der	Knochen	Knochen			
+1219	N	der	Knopf	Knöpfe			
+1220	N	der	Koch	Köche			
+1221	V		kochen		gekocht	haben	
+1222	N	der	Koffer	Koffer			
+1223	N	der	Kofferraum				
+1224	N	der	Kollege	Kollegen			
+1225	X		komisch				
+1226	V		kommen		gekommen	sein	
+1227	N	die	Kommunikation				
+1228	X		komplett				
+1229	X		kompliziert				
+1230	N	der	Kompromiss	Kompromisse			
+1231	N	der	König	Könige			
+1232	N	die	Konkurrenz				
+1233	V		können		gekonnt/… können	haben	
+1234	N	das	Konsulat	Konsulate			
+1235	N	der	Kontakt	Kontakte			
+1236	N	das	Konto	Konten			
+1237	N	das	Girokonto	Girokontoen			
+1238	X		kontrollieren				
+1239	N	die	Kontrolle	Kontrollen			
+1240	V		konzentrieren		konzentriert	haben	
+1241	N	das	Konzert	Konzerte			
+1242	N	der	Kopf	Köpfe			
+1243	X		kopieren				
+1244	N	die	Kopie	Kopien			
+1245	N	der	Körper	Körper			
+1246	X		körperlich				
+1247	X		korrekt				
+1248	V		korrigieren		korrigiert	haben	
+1249	N	die	Kosmetik				
+1250	V		kosten		gekostet	haben	
+1251	N	die	Kosten				
+1252	X		kostenlos				
+1253	N	das	Kostüm	Kostüme			
+1254	N	die	Kraft	Kräfte			
+1255	X		kräftig				
+1256	N	das	Kraftfahrzeug	Kraftfahrzeuge			
+1257	X		krank				
+1258	V		jdn. krankschreiben		krankgeschrieben	haben	
+1259	V		krankmelden		krankgemeldet	haben	
+1260	N	der	Kranke	Kranken			
+1261	N	das	Krankenhaus	Krankenhäuser			
+1262	N	die	Krankenkasse	Krankenkassen			
+1263	N	der	Krankenpfleger	Krankenpfleger			
+1264	N	die	Krankenschwester	Krankenschwestern			
+1265	N	der	Krankenwagen	Krankenwagen			
+1266	N	die	Krankheit	Krankheiten			
+1267	N	der	Kredit	Kredite			
+1268	N	die	Kreditkarte	Kreditkarten			
+1269	N	der	Kreis	Kreise			
+1270	N	das	Kreuz	Kreuze			
+1271	N	die	Kreuzung	Kreuzungen			
+1272	V		kriegen		gekriegt	haben	
+1273	X		Kriminal-				
+1274	N	die	Kriminalpolizei				
+1275	N	der	Krimi	Krimis			
+1276	X		kritisieren				
+1277	N	die	Kritik	Kritiken			
+1278	X		kritisch				
+1279	N	die	Küche	Küchen			
+1280	N	der	Kuchen	Kuchen			
+1281	N	der	Kugelschreiber	Kugelschreiber			
+1282	N	der	Kuli				
+1283	N	die	Kuh	Kühe			
+1284	X		kühl				
+1285	N	der	Kühlschrank	Kühlschränke			
+1286	N	die	Kultur	Kulturen			
+1287	X		kulturell				
+1288	V		kümmern		gekümmert	haben	
+1289	N	der	Kunde	Kunden			
+1290	V		kündigen		gekündigt	haben	
+1291	N	die	Kündigung	Kündigungen			
+1292	N	die	Kunst	Künste			
+1293	N	der	Künstler	Künstler			
+1294	X		künstlich				
+1295	N	der	Kunststoff	Kunststoffe			
+1296	N	der	Kurs	Kurse			
+1297	N	der	Kursleiter				
+1298	N	die	Kurve	Kurven			
+1299	X		kurz				
+1300	V		küssen		geküsst	haben	
+1301	N	der	Kuss	Küsse			
+1302	N	die	Küste	Küsten			
+1303	N	das	Labor	Labors			
+1304	V		lächeln		gelächelt	haben	
+1305	V		lachen		gelacht	haben	
+1306	N	der	Laden	Läden			
+1307	N	die	Lage				
+1308	N	das	Lager	Lager			
+1309	N	die	Lampe	Lampen			
+1310	N	das	Land	Länder			
+1311	V		landen		gelandet	sein	
+1312	N	die	Landung	Landungen			
+1313	N	die	Landwirtschaft				
+1314	X		lang				
+1315	N	die	Länge				
+1316	X		lang(e)				
+1317	X		längst				
+1318	X		langsam				
+1319	X		langweilig				
+1320	N	der	Lärm				
+1321	V		lassen		gelassen	haben	
+1322	N	der	Laster	Laster			
+1323	V		laufen		gelaufen	sein	
+1324	N	das	Laufwerk	Laufwerke			
+1325	N	die	Laune	Launen			
+1326	X		laut				
+1327	N	der	Lautsprecher	Lautsprecher			
+1328	V		leben		gelebt	haben	
+1329	N	das	Leben				
+1330	N	der	Lebenslauf	Lebensläufe			
+1331	N	die	Lebensmittel				
+1332	N	das	Leder				
+1333	X		ledig				
+1334	X		leer				
+1335	V		legen		gelegt	haben	
+1336	N	die	Lehre				
+1337	N	der	Lehrer	Lehrer			
+1338	N	der	Lehrling	Lehrlinge			
+1339	X		leicht				
+1340	V		leidtun		leidgetan	haben	
+1341	V		leiden		gelitten	haben	
+1342	X		leider				
+1343	V		leihen		geliehen	haben	
+1344	X		leise				
+1345	V		leisten		geleistet	haben	
+1346	N	die	Leistung	Leistungen			
+1347	V		leiten		geleitet	haben	
+1348	N	der	Leiter	Leiter			
+1349	N	die	Leitung	Leitungen			
+1350	N	die	Leiter	Leitern			
+1351	V		lernen		gelernt	haben	
+1352	V		lesen		gelesen	haben	
+1353	X		letzt-				
+1354	N	die	Leute				
+1355	N	das	Licht	Lichter			
+1356	V		lieben		geliebt	haben	
+1357	X		lieb				
+1358	N	die	Liebe				
+1359	X		Lieblings-				
+1360	N	das	Lied	Lieder			
+1361	V		liefern		geliefert	haben	
+1362	N	die	Lieferung	Lieferungen			
+1363	V		liegen		gelegen	sein	
+1364	N	der	Lift	Lifte			
+1365	N	die	Limonade	Limonaden			
+1366	N	die	Linie	Linien			
+1367	X		links				
+1368	X		link-				
+1369	N	die	Lippe	Lippen			
+1370	N	die	Liste	Listen			
+1371	N	der	LKW	LKWs			
+1372	V		loben		gelobt	haben	
+1373	N	das	Loch	Löcher			
+1374	X		locker				
+1375	N	der	Löffel	Löffel			
+1376	N	der	Lohn	Löhne			
+1377	V		sich lohnen		sich gelohnt	haben	
+1378	N	das	Lokal	Lokale			
+1379	X		los				
+1380	V		losfahren		losgefahren	sein	
+1381	V		löschen		gelöscht	haben	
+1382	V		lösen		gelöst	haben	
+1383	N	die	Lösung	Lösungen			
+1384	N	die	Luft				
+1385	V		lügen		gelogen	haben	
+1386	N	die	Lüge	Lügen			
+1387	N	die	Lust				
+1388	X		lustig				
+1389	V		machen		gemacht	haben	
+1390	N	das	Mädchen	Mädchen			
+1391	N	der	Magen	Mägen			
+1392	X		mager				
+1393	N	die	Mahlzeit	Mahlzeiten			
+1394	N	die	Mahnung	Mahnungen			
+1395	N	der	Makler	Makler			
+1396	X		mal				
+1397	N	das	Mal	Male			
+1398	V		malen		gemalt	haben	
+1399	N	der	Maler	Maler			
+1400	N	die	Mama	Mamas			
+1401	X		man				
+1402	X		manch-				
+1403	X		manchmal				
+1404	N	der	Mann	Männer			
+1405	X		männlich				
+1406	N	die	Mannschaft	Mannschaften			
+1407	N	der	Mantel	Mäntel			
+1408	N	das	Märchen	Märchen			
+1409	N	die	Margarine				
+1410	N	die	Marke	Marken			
+1411	V		markieren		markiert	haben	
+1412	N	der	Markt	Märkte			
+1413	N	die	Marmelade	Marmeladen			
+1414	N	die	Maschine	Maschinen			
+1415	N	die	Maßnahme	Maßnahmen			
+1416	N	das	Material				
+1417	N	die	Mathematik				
+1418	N	die	Mauer	Mauern			
+1419	N	die	Maus	Mäuse			
+1420	X		maximal				
+1421	N	der	Mechaniker	Mechaniker			
+1422	N	das	Medikament	Medikamente			
+1423	N	die	Medizin				
+1424	N	das	Meer	Meere			
+1425	N	das	Mehl				
+1426	X		mehrere				
+1427	N	die	Mehrheit	Mehrheiten			
+1428	N	die	Mehrwertsteuer				
+1429	V		meinen		gemeint	haben	
+1430	N	die	Meinung	Meinungen			
+1431	X		meinetwegen				
+1432	X		meist-				
+1433	X		meistens (meist)				
+1434	N	der	Meister	Meister			
+1435	V		melden		gemeldet	haben	
+1436	N	die	Meldung	Meldungen			
+1437	N	die	Menge	Mengen			
+1438	N	der	Mensch	Menschen			
+1439	X		menschlich				
+1440	V		merken		gemerkt	haben	
+1441	X		merkwürdig				
+1442	N	die	Messe	Messen			
+1443	V		messen		gemessen	haben	
+1444	N	das	Messer	Messer			
+1445	N	das	Metall	Metalle			
+1446	N	die	Methode	Methoden			
+1447	N	die	Metzgerei	Metzgereien			
+1448	V		mieten		gemietet	haben	
+1449	N	die	Miete	Mieten			
+1450	N	der	Mieter	Mieter			
+1451	N	der	Migrant	Migranten			
+1452	N	die	Migration				
+1453	N	der	Migrationshintergrund				
+1454	N	die	Milch				
+1455	X		mild				
+1456	N	die	Minderheit	Minderheiten			
+1457	X		mindestens				
+1458	N	das	Mineralwasser				
+1459	V		mischen		gemischt	haben	
+1460	V		missverstehen		missverstanden	haben	
+1461	N	das	Missverständnis	Missverständnisse			
+1462	X		mit				
+1463	N	der	Mitarbeiter	Mitarbeiter			
+1464	X		miteinander				
+1465	N	das	Mitglied	Mitglieder			
+1466	N	die	Mitte				
+1467	V		mitteilen		mitgeteilt	haben	
+1468	N	das	Mittel	Mittel			
+1469	X		mitten				
+1470	X		mittler-				
+1471	N	das	Möbel	Möbel			
+1472	X		möbliert				
+1473	N	das	Mobiltelefon	Mobiltelefone			
+1474	N	die	Mode	Moden			
+1475	N	das	Modell	Modelle			
+1476	X		modern				
+1477	V		mögen		gemocht	haben	
+1478	X		möglich				
+1479	N	die	Möglichkeit	Möglichkeiten			
+1480	X		möglichst				
+1481	N	der	Moment	Momente			
+1482	N	der	Mond	Monde			
+1483	N	der	Monitor	Monitore			
+1484	N	der	Motor	Motoren			
+1485	N	das	Motorrad	Motorräder			
+1486	X		müde				
+1487	N	die	Mühe				
+1488	N	der	Müll				
+1489	N	die	Müllabfuhr				
+1490	N	der	Mülleimer	Mülleimer			
+1491	N	die	Mülltonne	Mülltonnen			
+1492	N	der	Sperrmüll				
+1493	N	der	Mund	Münder			
+1494	X		mündlich				
+1495	N	die	Münze	Münzen			
+1496	N	das	Museum	Museen			
+1497	N	die	Musik				
+1498	N	der	Musiker	Musiker			
+1499	N	der	Muskel	Muskeln			
+1500	V		müssen		gemusst/... müssen	haben	
+1501	N	der	Mut				
+1502	X		mutig				
+1503	N	die	Mutter	Mütter			
+1504	X		nach				
+1505	N	der	Nachbar	Nachbarn			
+1506	X		nachdem				
+1507	V		nachdenken		nachgedacht	haben	
+1508	X		nachher				
+1509	V		nachholen		nachgeholt	haben	
+1510	N	die	Nachricht	Nachrichten			
+1511	V		nachschlagen		nachgeschlagen	haben	
+1512	N	die	Nachspeise	Nachspeisen			
+1513	N	der	Nachteil	Nachteile			
+1514	N	der	Nachtisch				
+1515	N	die	Nadel	Nadeln			
+1516	N	der	Nagel	Nägel			
+1517	X		nah(e)				
+1518	N	die	Nähe				
+1519	X		nächst-				
+1520	V		nähen		genäht	haben	
+1521	X		naja				
+1522	N	der	Name	Namen			
+1523	N	der	Familienname	Familiennamen			
+1524	N	der	Mädchenname	Mädchennamen			
+1525	N	der	Vorname	Vornamen			
+1526	X		nämlich				
+1527	N	die	Nase	Nasen			
+1528	X		nass				
+1529	N	die	Natur				
+1530	X		natürlich				
+1531	N	der	Nebel	Nebel			
+1532	X		neblig				
+1533	X		neben				
+1534	X		nebenan				
+1535	X		nebenbei				
+1536	N	der	Neffe	Neffen			
+1537	X		negativ				
+1538	V		nehmen		genommen	haben	
+1539	X		nein				
+1540	V		nennen		genannt	haben	
+1541	N	der	Nerv	Nerven			
+1542	X		nervös				
+1543	X		nett				
+1544	X		netto				
+1545	X		neu				
+1546	X		neugierig				
+1547	X		neulich				
+1548	X		nicht				
+1549	N	die	Nichte	Nichten			
+1550	N	der	Nichtraucher	Nichtraucher			
+1551	X		nichts				
+1552	X		nie				
+1553	X		niedrig				
+1554	X		niemand				
+1555	X		nirgends				
+1556	X		nirgendwo				
+1557	X		noch				
+1558	X		nochmal				
+1559	X		nochmals				
+1560	X		normal				
+1561	X		normalerweise				
+1562	N	der	Norden				
+1563	X		nördlich				
+1564	X		Not				
+1565	N	die	Notaufnahme	Notaufnahmeen			
+1566	N	der	Notausgang	Notausgänge			
+1567	N	der	Notfall	Notfälle			
+1568	N	der	Notruf				
+1569	X		notwendig				
+1570	N	die	Note	Noten			
+1571	X		notieren				
+1572	N	die	Notiz	Notizen			
+1573	X		nötig				
+1574	N	die	Nudel	Nudeln			
+1575	N	die	Nummer	Nummern			
+1576	X		nun				
+1577	X		nur				
+1578	V		nutzen		genutzt	haben	
+1579	V		nützen		genützt	haben	
+1580	X		nützlich				
+1581	X		ob				
+1582	X		oben				
+1583	X		ober-				
+1584	N	das	Obst				
+1585	X		obwohl				
+1586	X		oder				
+1587	N	der	Ofen	Öfen			
+1588	X		offen				
+1589	X		öffentlich				
+1590	X		offiziell				
+1591	V		öffnen		geöffnet	haben	
+1592	X		oft/öfter				
+1593	N	das	Obergeschoss				
+1594	X		ohne				
+1595	N	das	Ohr	Ohren			
+1596	X		okay				
+1597	X		Öko- (ökologisch)				
+1598	N	das	Öl	Öle			
+1599	N	die	Oma	Omas			
+1600	N	der	Onkel	Onkel			
+1601	X		online				
+1602	N	der	Opa	Opas			
+1603	N	die	Oper	Opern			
+1604	V		operieren		operiert	haben	
+1605	N	die	Operation	Operationen			
+1606	N	das	Opfer	Opfer			
+1607	X		optimistisch				
+1608	N	die	Orange	Orangen			
+1609	N	das	Orchester	Orchester			
+1610	X		ordentlich				
+1611	V		ordnen		geordnet	haben	
+1612	N	der	Ordner	Ordner			
+1613	N	die	Ordnung				
+1614	V		organisieren		organisiert	haben	
+1615	N	die	Organisation	Organisationen			
+1616	N	das	Original	Originale			
+1617	N	der	Ort	Orte			
+1618	N	der	Vorort				
+1619	N	der	Wohnort				
+1620	X		örtlich				
+1621	N	der	Osten				
+1622	X		östlich				
+1623	X		paar				
+1624	N	das	Paar	Paare			
+1625	N	das	Päckchen	Päckchen			
+1626	V		packen		gepackt	haben	
+1627	N	das	Paket	Pakete			
+1628	N	die	Panne	Pannen			
+1629	N	der	Papa	Papas			
+1630	N	das	Papier	Papiere			
+1631	X		parallel				
+1632	N	das	Parfüm	Parfüms			
+1633	N	der	Park	Parks			
+1634	V		parken		geparkt	haben	
+1635	N	das	Parkhaus	Parkhäuser			
+1636	N	der	Parkplatz	Parkplätze			
+1637	N	die	Parkuhr	Parkuhren			
+1638	N	der	Partner	Partner			
+1639	N	die	Party	Partys			
+1640	N	der	Pass	Pässe			
+1641	N	der	Passagier	Passagiere			
+1642	V		passen		gepasst	haben	
+1643	V		passieren		passiert	sein	
+1644	X		passiv				
+1645	N	der	Patient	Patienten			
+1646	N	die	Pause	Pausen			
+1647	N	das	Pech				
+1648	N	die	Pension	Pensionen			
+1649	X		pensioniert				
+1650	X		per				
+1651	X		perfekt				
+1652	N	die	Person	Personen			
+1653	X		persönlich				
+1654	N	das	Personal				
+1655	N	der	Pfeffer				
+1656	N	das	Pferd	Pferde			
+1657	N	die	Pflanze	Pflanzen			
+1658	N	das	Pflaster	Pflaster			
+1659	N	die	Pflaume	Pflaumen			
+1660	V		pflegen		gepflegt	haben	
+1661	N	der	Pfleger	Pfleger			
+1662	N	die	Pflegeversicherung	Pflegeversicherungen			
+1663	N	die	Pflicht	Pflichten			
+1664	N	die	Phantasie	Phantasien			
+1665	N	die	Philosophie	Philosophien			
+1666	N	die	Physik				
+1667	N	das	Picknick	Picknicks			
+1668	N	die	Pille	Pillen			
+1669	N	der	Pilz	Pilze			
+1670	N	der	PKW	PKWs			
+1671	V		planen		geplant	haben	
+1672	N	der	Plan	Pläne			
+1673	N	das	Plastik				
+1674	N	der	Platz	Plätze			
+1675	X		plötzlich				
+1676	N	die	Politik				
+1677	N	der	Politiker	Politiker			
+1678	X		politisch				
+1679	N	die	Polizei				
+1680	N	der	Polizist	Polizisten			
+1681	N	die	Pommes	Pommesfrites			
+1682	N	die	Portion	Portionen			
+1683	X		positiv				
+1684	N	die	Post				
+1685	N	das	Postfach	Postfächer			
+1686	N	die	Postkarte	Postkarten			
+1687	N	die	Postleitzahl	Postleitzahlen			
+1688	N	das	Praktikum	Praktika			
+1689	N	der	Praktikant	Praktikanten			
+1690	X		praktisch				
+1691	X		präsentieren				
+1692	N	die	Praxis				
+1693	N	der	Preis	Preise			
+1694	X		preiswert				
+1695	X		prima				
+1696	X		privat				
+1697	X		pro				
+1698	V		probieren		probiert	haben	
+1699	N	das	Problem	Probleme			
+1700	V		produzieren		produziert	haben	
+1701	N	das	Produkt	Produkte			
+1702	N	die	Produktion				
+1703	N	der	Professor	Professoren			
+1704	N	der	Profi	Profis			
+1705	N	das	Programm	Programme			
+1706	N	das	Projekt	Projekte			
+1707	N	der	Prospekt	Prospekte			
+1708	X		Prost				
+1709	V		protestieren		protestiert	haben	
+1710	N	der	Protest	Proteste			
+1711	N	der	Prozess	Prozesse			
+1712	V		prüfen		geprüft	haben	
+1713	N	die	Prüfung	Prüfungen			
+1714	N	das	Publikum				
+1715	N	der	Pullover	Pullover			
+1716	N	der	Punkt	Punkte			
+1717	X		pünktlich				
+1718	N	die	Puppe	Puppen			
+1719	V		putzen		geputzt	haben	
+1720	N	die	Qualifikation	Qualifikationen			
+1721	N	die	Qualität	Qualitäten			
+1722	N	der	Quark				
+1723	N	das	Quartal	Quartale			
+1724	N	der	Quatsch				
+1725	X		quer				
+1726	N	die	Querstraße	Querstraßen			
+1727	N	die	Quittung	Quittungen			
+1728	N	der	Rabatt	Rabatte			
+1729	N	das	Rad	Räder			
+1730	X		Rad fahren				
+1731	N	der	Radfahrer	Radfahrer			
+1732	N	das	Radio	Radios			
+1733	N	der	Rand	Ränder			
+1734	V		rasieren		rasiert	haben	
+1735	V		raten		geraten	haben	
+1736	N	der	Rat				
+1737	X		Ratschlag				
+1738	N	das	Rathaus	Rathäuser			
+1739	V		rauchen		geraucht	haben	
+1740	N	der	Raucher	Raucher			
+1741	N	der	Raum	Räume			
+1742	V		reagieren		reagiert	haben	
+1743	N	die	Reaktion	Reaktionen			
+1744	N	die	Realität	Realitäten			
+1745	X		realistisch				
+1746	V		rechnen		gerechnet	haben	
+1747	N	der	Rechner	Rechner			
+1748	N	die	Rechnung	Rechnungen			
+1749	N	das	Recht	Rechte			
+1750	X		rechtlich				
+1751	N	der	Rechtsanwalt	Rechtsanwälte			
+1752	X		recht				
+1753	X		rechts				
+1754	X		recht-				
+1755	X		rechtzeitig				
+1756	V		reden		geredet	haben	
+1757	N	die	Rede	Reden			
+1758	V		reduzieren		reduziert	haben	
+1759	N	die	Reform	Reformen			
+1760	N	das	Regal	Regale			
+1761	N	die	Regel	Regeln			
+1762	X		regelmäßig				
+1763	V		regeln		geregelt	haben	
+1764	V		regnen		geregnet	haben	
+1765	N	der	Regen				
+1766	N	die	Region	Regionen			
+1767	X		regional				
+1768	X		reich				
+1769	V		reichen		gereicht	haben	
+1770	X		reif				
+1771	N	der	Reifen	Reifen			
+1772	N	die	Reihe	Reihen			
+1773	X		rein				
+1774	V		reinigen		gereinigt	haben	
+1775	N	die	Reinigung	Reinigungen			
+1776	N	der	Reis				
+1777	V		reisen		gereist	sein	
+1778	N	die	Reise	Reisen			
+1779	N	das	Reisebüro	Reisebüros			
+1780	V		reiten		geritten	sein	
+1781	N	der	Rekord	Rekorde			
+1782	X		relativ				
+1783	V		rennen		gerannt	sein	
+1784	V		renovieren		renoviert	haben	
+1785	N	die	Rente	Renten			
+1786	N	der	Rentner	Rentner			
+1787	V		reparieren		repariert	haben	
+1788	N	die	Reparatur	Reparaturen			
+1789	V		reservieren		reserviert	haben	
+1790	N	die	Reservierung	Reservierungen			
+1791	N	der	Rest	Reste			
+1792	N	das	Restaurant	Restaurants			
+1793	V		retten		gerettet	haben	
+1794	N	das	Rezept	Rezepte			
+1795	N	die	Rezeption	Rezeptionen			
+1796	N	der	Rhythmus	Rhythmen			
+1797	N	der	Richter	Richter			
+1798	X		richtig				
+1799	N	die	Richtung	Richtungen			
+1800	V		riechen		gerochen	haben	
+1801	X		riesig				
+1802	N	das	Rind	Rinder			
+1803	N	der	Ring	Ringe			
+1804	N	das	Risiko	Risiken			
+1805	N	der	Rock	Röcke			
+1806	X		roh				
+1807	N	der	Roman	Romane			
+1808	N	die	Rose	Rosen			
+1809	X		rot				
+1810	N	die	Rückfahrt				
+1811	N	die	Rückkehr				
+1812	N	der	Rücken	Rücken			
+1813	X		rücken				
+1814	N	der	Rucksack	Rucksäcke			
+1815	N	die	Rücksicht	Rücksichten			
+1816	X		rückwärts				
+1817	V		rufen		gerufen	haben	
+1818	N	die	Ruhe				
+1819	X		ruhig				
+1820	V		rühren		gerührt	haben	
+1821	X		rund				
+1822	N	der	Rundfunk				
+1823	N	der	Saal	Säle			
+1824	N	die	Sache	Sachen			
+1825	N	der	Sack	Säcke			
+1826	N	der	Saft	Säfte			
+1827	V		sagen		gesagt	haben	
+1828	N	die	Sahne				
+1829	N	die	Saison	Saisons			
+1830	N	der	Salon	Salons			
+1831	N	der	Salat	Salate			
+1832	N	die	Salbe	Salben			
+1833	N	das	Salz				
+1834	V		sammeln		gesammelt	haben	
+1835	X		sämtlich				
+1836	N	der	Sand				
+1837	N	der	Sänger	Sänger			
+1838	X		satt				
+1839	N	der	Satz	Sätze			
+1840	X		sauber				
+1841	X		sauer				
+1842	N	die	Schachtel	Schachteln			
+1843	X		schade				
+1844	V		schaden		geschadet	haben	
+1845	N	der	Schaden	Schäden			
+1846	V		schaffen		geschafft	haben	
+1847	V		schalten		geschaltet	haben	
+1848	N	der	Schalter	Schalter			
+1849	X		scharf				
+1850	N	der	Schatten				
+1851	V		schätzen		geschätzt	haben	
+1852	V		schauen		geschaut	haben	
+1853	N	das	Schaufenster	Schaufenster			
+1854	N	der	Schauspieler	Schauspieler			
+1855	N	die	Scheibe	Scheiben			
+1856	V		sich scheiden lassen		sich scheiden lassen	haben	
+1857	V		geschieden sein		geschieden	sein	
+1858	N	die	Scheidung	Scheidungen			
+1859	N	der	Schein	Scheine			
+1860	V		scheinen		geschienen	haben	
+1861	V		schenken		geschenkt	haben	
+1862	N	die	Schere	Scheren			
+1863	N	die	Schicht	Schichten			
+1864	X		schick				
+1865	V		schicken		geschickt	haben	
+1866	V		schieben		geschoben	haben	
+1867	X		schief				
+1868	V		schießen		geschossen	haben	
+1869	N	das	Schiff	Schiffe			
+1870	N	das	Schild	Schilder			
+1871	V		schimpfen		geschimpft	haben	
+1872	X		Schinken				
+1873	N	der	Schirm	Schirme			
+1874	V		schlafen		geschlafen	haben	
+1875	N	der	Schlaf				
+1876	V		schlagen		geschlagen	haben	
+1877	N	die	Schlange	Schlangen			
+1878	X		schlank				
+1879	X		schlecht				
+1880	V		schließen		geschlossen	haben	
+1881	X		schließlich				
+1882	N	das	Schloss	Schlösser			
+1883	N	der	Schluss				
+1884	N	der	Schlüssel	Schlüssel			
+1885	X		schlimm				
+1886	X		schmal				
+1887	V		schmecken		geschmeckt	haben	
+1888	N	der	Schmerz	Schmerzen			
+1889	N	das	Schmerzmittel	Schmerzmittel			
+1890	N	der	Schmuck				
+1891	X		schmutzig				
+1892	N	der	Schnee				
+1893	V		schneien		geschneit	haben	
+1894	V		schneiden		geschnitten	haben	
+1895	X		schnell				
+1896	N	das	Schnitzel	Schnitzel			
+1897	N	der	Schnupfen				
+1898	N	die	Schokolade				
+1899	X		schon				
+1900	X		schön				
+1901	N	der	Schrank	Schränke			
+1902	N	der	Schreck				
+1903	X		schrecklich				
+1904	V		schreiben		geschrieben	haben	
+1905	X		aufschreiben				
+1906	N	das	Schreiben	Schreiben			
+1907	N	der	Schreibtisch	Schreibtische			
+1908	V		schreien		geschrien	haben	
+1909	N	die	Schrift	Schriften			
+1910	X		schriftlich				
+1911	N	der	Schritt	Schritte			
+1912	N	der	Schuh	Schuhe			
+1913	N	die	Schuld	Schulden			
+1914	V		schuld sein		schuld gewesen	sein	
+1915	X		schuldig				
+1916	N	die	Schule	Schulen			
+1917	N	der	Schüler	Schüler			
+1918	N	die	Schulter	Schultern			
+1919	V		schützen		geschützt	haben	
+1920	N	der	Schutz				
+1921	X		schwach				
+1922	X		schwanger				
+1923	N	die	Schwangerschaft	Schwangerschaften			
+1924	X		schwarz				
+1925	N	das	Schwein	Schweine			
+1926	X		schwer				
+1927	N	die	Schwester	Schwestern			
+1928	X		Schwieger-				
+1929	X		schwierig				
+1930	N	die	Schwierigkeit	Schwierigkeiten			
+1931	V		schwimmen		geschwommen	sein	
+1932	N	das	Schwimmbad	Schwimmbäder			
+1933	V		schwitzen		geschwitzt	haben	
+1934	N	der	See	Seen			
+1935	N	die	Nordsee				
+1936	V		sehen		gesehen	haben	
+1937	N	die	Sehenswürdigkeit	Sehenswürdigkeiten			
+1938	X		sehr				
+1939	N	die	Seife	Seifen			
+1940	V		sein		gewesen	sein	
+1941	X		seit				
+1942	X		seitdem				
+1943	N	die	Seite	Seiten			
+1944	N	die	Sekretärin	Sekretärinnen			
+1945	X		selb				
+1946	X		selbst				
+1947	X		selbstständig				
+1948	X		selbstverständlich				
+1949	X		selten				
+1950	N	das	Semester	Semester			
+1951	V		senden		gesandt	haben	
+1952	N	der	Sender	Sender			
+1953	N	die	Sendung	Sendungen			
+1954	N	die	Senioren				
+1955	X		senkrecht				
+1956	N	die	Serie	Serien			
+1957	N	der	Service				
+1958	N	der	Sessel	Sessel			
+1959	V		setzen		gesetzt	haben	
+1960	X		sicher				
+1961	N	die	Sicherheit				
+1962	V		sichern		gesichert	haben	
+1963	X		sichtbar				
+1964	N	der	Sieg	Siege			
+1965	N	der	Sieger	Sieger			
+1966	V		singen		gesungen	haben	
+1967	V		sinken		gesunken	sein	
+1968	N	der	Sinn				
+1969	N	die	Situation	Situationen			
+1970	V		sitzen		gesessen	haben	
+1971	N	der	Sitz	Sitze			
+1972	N	der	Ski	Skier			
+1973	N	die	SMS				
+1974	X		so				
+1975	X		sobald				
+1976	N	die	Socke	Socken			
+1977	X		sodass				
+1978	N	das	Sofa	Sofas			
+1979	X		sofort				
+1980	N	die	Software				
+1981	X		sogar				
+1982	N	der	Sohn	Söhne			
+1983	X		solange				
+1984	X		solch				
+1985	V		sollen		gesollt/… sollen	haben	
+1986	N	das	Sonderangebot	Sonderangebote			
+1987	X		sondern				
+1988	N	die	Sonne				
+1989	X		sonst				
+1990	X		sonstig				
+1991	V		sorgen		gesorgt	haben	
+1992	N	die	Sorge	Sorgen			
+1993	N	die	Soße	Soßen			
+1994	N	das	Souvenir	Souvenirs			
+1995	X		soviel				
+1996	X		so viel/so viel wie				
+1997	X		sowieso				
+1998	X		sowohl … als auch				
+1999	N	das	Sozialamt	Sozialämter			
+2000	N	der	Sozialarbeiter	Sozialarbeiter			
+2001	N	die	Sozialhilfe				
+2002	X		spannend				
+2003	V		sparen		gespart	haben	
+2004	X		sparsam				
+2005	N	der	Spaß				
+2006	X		spät				
+2007	X		spätestens				
+2008	V		spazieren gehen		spazieren gegangen	sein	
+2009	N	der	Spaziergang	Spaziergänge			
+2010	V		speichern		gespeichert	haben	
+2011	X		Speise-/-speise				
+2012	N	die	Speisekarte	Speisekarten			
+2013	N	der	Speisewagen	Speisewagen			
+2014	N	die	Vorspeise	Vorspeisen			
+2015	X		Spezial				
+2016	N	der	Spezialist	Spezialisten			
+2017	X		speziell				
+2018	N	der	Spiegel	Spiegel			
+2019	V		spielen		gespielt	haben	
+2020	N	das	Spiel	Spiele			
+2021	N	der	Spieler	Spieler			
+2022	N	der	Spielplatz	Spielplätze			
+2023	N	das	Spielzeug				
+2024	X		spitz				
+2025	N	der	Sport				
+2026	N	die	Sportart	Sportarten			
+2027	N	der	Sportler	Sportler			
+2028	X		sportlich				
+2029	N	die	Sprache	Sprachen			
+2030	N	die	Muttersprache	Mutterspracheen			
+2031	V		sprechen		gesprochen	haben	
+2032	N	die	Sprechstunde	Sprechstunden			
+2033	V		springen		gesprungen	sein	
+2034	N	die	Spritze	Spritzen			
+2035	V		spülen		gespült	haben	
+2036	N	die	Spülmaschine	Spülmaschinen			
+2037	N	die	Spur	Spuren			
+2038	V		spüren		gespürt	haben	
+2039	N	der	Staat	Staaten			
+2040	X		staatlich				
+2041	N	die	Staatsangehörigkeit				
+2042	N	das	Stadion	Stadien			
+2043	N	die	Stadt	Städte			
+2044	X		städtisch				
+2045	N	der	Stadtplan	Stadtpläne			
+2046	V		stammen		gestammt	haben	
+2047	N	das	Standesamt	Standesämter			
+2048	X		ständig				
+2049	N	der	Standpunkt	Standpunkte			
+2050	N	der	Star	Stars			
+2051	X		stark				
+2052	V		starten		gestartet	sein	
+2053	N	der	Start	Starts			
+2054	N	die	Station	Stationen			
+2055	X		statt				
+2056	V		stattfinden		stattgefunden	haben	
+2057	N	der	Stau	Staus			
+2058	N	der	Staub				
+2059	N	das	Steak	Steaks			
+2060	V		stecken		gesteckt	haben	
+2061	N	die	Steckdose	Steckdosen			
+2062	N	der	Stecker	Stecker			
+2063	V		stehen		gestanden	haben	
+2064	X		stehen bleiben				
+2065	V		stehlen		gestohlen	haben	
+2066	V		steigen		gestiegen	sein	
+2067	X		steil				
+2068	N	der	Stein	Steine			
+2069	N	die	Stelle	Stellen			
+2070	V		stellen		gestellt	haben	
+2071	N	der	Stempel	Stempel			
+2072	V		sterben		gestorben	sein	
+2073	N	der	Stern	Sterne			
+2074	N	die	Steuer	Steuern			
+2075	X		still				
+2076	N	der	Stiefel	Stiefel			
+2077	N	die	Stimme	Stimmen			
+2078	V		stimmen		gestimmt	haben	
+2079	N	die	Stimmung	Stimmungen			
+2080	N	die	Stirn	Stirnen			
+2081	V		stinken		gestunken	haben	
+2082	N	der	Stock				
+2083	N	das	Stockwerk	Stockwerke			
+2084	N	der	Stoff	Stoffe			
+2085	X		stolz				
+2086	V		stoppen		gestoppt	haben	
+2087	V		stören		gestört	haben	
+2088	N	die	Störung	Störungen			
+2089	V		stoßen		gestoßen	haben	
+2090	N	die	Strafe	Strafen			
+2091	N	der	Strafzettel	Strafzettel			
+2092	N	der	Strand	Strände			
+2093	N	die	Straße	Straßen			
+2094	N	die	Straßenbahn	Straßenbahnen			
+2095	N	die	Strecke	Strecken			
+2096	V		streichen		gestrichen	haben	
+2097	N	das	Streichholz	Streichhölzer			
+2098	V		streiken		gestreikt	haben	
+2099	N	der	Streik	Streiks			
+2100	V		streiten		gestritten	haben	
+2101	N	der	Streit				
+2102	X		streng				
+2103	N	der	Stress				
+2104	N	der	Strom				
+2105	N	der	Strumpf	Strümpfe			
+2106	N	das	Stück	Stücke			
+2107	V		studieren		studiert	haben	
+2108	N	der	Student	Studenten			
+2109	N	das	Studium	Studien			
+2110	N	das	Studio	Studios			
+2111	N	die	Stufe	Stufen			
+2112	N	der	Stuhl	Stühle			
+2113	X		stumm				
+2114	N	die	Stunde	Stunden			
+2115	N	der	Sturm	Stürme			
+2116	V		stürzen		gestürzt	sein	
+2117	V		suchen		gesucht	haben	
+2118	N	der	Süden				
+2119	X		südlich				
+2120	N	der	Supermarkt	Supermärkte			
+2121	N	die	Suppe	Suppen			
+2122	X		süß				
+2123	N	das	Symbol	Symbole			
+2124	X		sympathisch				
+2125	N	das	System	Systeme			
+2126	N	die	Tabelle	Tabellen			
+2127	N	die	Tablette	Tabletten			
+2128	N	die	Tafel	Tafeln			
+2129	N	der	Tagesablauf	Tagesabläufe			
+2130	N	die	Tagesmutter	Tagesmütter			
+2131	N	das	Tal	Täler			
+2132	V		tanken		getankt	haben	
+2133	N	die	Tankstelle	Tankstellen			
+2134	N	die	Tante	Tanten			
+2135	V		tanzen		getanzt	haben	
+2136	N	der	Tanz	Tänze			
+2137	N	der	Tarif	Tarife			
+2138	N	die	Tasche	Taschen			
+2139	N	das	Taschentuch	Taschentücher			
+2140	N	die	Tasse	Tassen			
+2141	N	die	Taste	Tasten			
+2142	N	die	Tastatur	Tastaturen			
+2143	N	die	Tat	Taten			
+2144	N	der	Täter	Täter			
+2145	N	die	Tätigkeit	Tätigkeiten			
+2146	V		täuschen		getäuscht	haben	
+2147	N	das	Taxi	Taxis			
+2148	N	das	Team	Teams			
+2149	N	die	Technik	Techniken			
+2150	X		technisch				
+2151	N	der	Tee				
+2152	N	das	Teil	Teile			
+2153	N	der	Teil	Teile			
+2154	N	die	Teilzeit				
+2155	V		teilen		geteilt	haben	
+2156	V		teilnehmen		teilgenommen	haben	
+2157	N	die	Teilnahme	Teilnahmen			
+2158	N	der	Teilnehmer	Teilnehmer			
+2159	X		teilweise				
+2160	V		telefonieren		telefoniert	haben	
+2161	N	das	Telefon	Telefone			
+2162	N	der	Teller	Teller			
+2163	N	die	Temperatur	Temperaturen			
+2164	N	das	Tempo				
+2165	N	das	Tennis				
+2166	N	der	Teppich	Teppiche			
+2167	N	der	Termin	Termine			
+2168	N	die	Terrasse	Terrassen			
+2169	V		testen		getestet	haben	
+2170	N	der	Test	Tests			
+2171	X		teuer				
+2172	N	der	Text	Texte			
+2173	N	das	Theater	Theater			
+2174	N	das	Thema	Themen			
+2175	X		theoretisch				
+2176	N	die	Therapie	Therapien			
+2177	N	das	Ticket	Tickets			
+2178	X		tief				
+2179	N	das	Tier	Tiere			
+2180	N	das	Haustier	Haustiere			
+2181	N	der	Tierpark	Tierparks			
+2182	N	der	Tipp	Tipps			
+2183	N	der	Tisch	Tische			
+2184	N	der	Titel	Titel			
+2185	N	die	Tochter	Töchter			
+2186	N	der	Tod				
+2187	X		tödlich				
+2188	N	die	Toilette	Toiletten			
+2189	X		tolerant				
+2190	X		toll				
+2191	N	die	Tomate	Tomaten			
+2192	N	die	Tonne	Tonnen			
+2193	N	das	Top	Tops			
+2194	N	der	Topf	Töpfe			
+2195	N	das	Tor	Tore			
+2196	X		tot				
+2197	N	der	Tote				
+2198	X		total				
+2199	N	die	Tour	Touren			
+2200	N	der	Tourismus				
+2201	N	der	Tourist	Touristen			
+2202	N	die	Tradition	Traditionen			
+2203	X		traditionell				
+2204	V		tragen		getragen	haben	
+2205	V		trainieren		trainiert	haben	
+2206	N	der	Trainer	Trainer			
+2207	N	das	Training				
+2208	V		transportieren		transportiert	haben	
+2209	N	der	Transport	Transporte			
+2210	N	die	Trauung	Trauungen			
+2211	V		träumen		geträumt	haben	
+2212	N	der	Traum	Träume			
+2213	X		Traum-				
+2214	X		traurig				
+2215	V		treffen		getroffen	haben	
+2216	N	der	Treffpunkt	Treffpunkte			
+2217	V		treiben		getrieben	haben	
+2218	V		trennen		getrennt	haben	
+2219	N	die	Trennung	Trennungen			
+2220	N	die	Treppe	Treppen			
+2221	V		treten		getreten	sein	
+2222	X		treu				
+2223	V		trinken		getrunken	haben	
+2224	N	das	Trinkgeld	Trinkgelder			
+2225	V		trocknen		getrocknet	haben	
+2226	X		trocken				
+2227	N	der	Tropfen	Tropfen			
+2228	X		trotz				
+2229	X		trotzdem				
+2230	N	das	T-Shirt	T-Shirts			
+2231	V		un		getan	haben	
+2232	N	die	Tür	Türen			
+2233	N	der	Turm	Türme			
+2234	N	die	Tüte	Tüten			
+2235	N	der	Typ	Typen			
+2236	X		typisch				
+2237	N	die	U-Bahn	U-Bahnen			
+2238	X		üben				
+2239	N	die	Übung	Übungen			
+2240	X		über				
+2241	X		überall				
+2242	V		überfahren		überfahren	haben	
+2243	X		überhaupt				
+2244	V		überholen		überholt	haben	
+2245	V		überlegen		überlegt	haben	
+2246	X		übermorgen				
+2247	V		übernachten		übernachtet	haben	
+2248	N	die	Übernachtung	Übernachtungen			
+2249	V		übernehmen		übernommen	haben	
+2250	V		überprüfen		überprüft	haben	
+2251	V		überqueren		überquert	haben	
+2252	V		überraschen		überrascht	haben	
+2253	N	die	Überraschung	Überraschungen			
+2254	V		überreden		überredet	haben	
+2255	V		übersetzen		übersetzt	haben	
+2256	N	der	Übersetzer	Übersetzer			
+2257	N	die	Übersetzung	Übersetzungen			
+2258	N	die	Überstunde	Überstunden			
+2259	V		übertragen		übertragen	haben	
+2260	V		übertreiben		übertrieben	haben	
+2261	V		überweisen		überwiesen	haben	
+2262	N	die	Überweisung	Überweisung			
+2263	V		überzeugen		überzeugt	haben	
+2264	N	die	Überzeugung	Überzeugungen			
+2265	X		üblich				
+2266	X		übrig				
+2267	X		übrigens				
+2268	N	die	Uhr	Uhren			
+2269	X		um				
+2270	V		umarmen		umarmt	haben	
+2271	X		um ... zu				
+2272	V		umdrehen		umgedreht	haben	
+2273	N	die	Umfrage	Umfragen			
+2274	N	die	Umgebung	Umgebungen			
+2275	X		umgekehrt				
+2276	N	die	Umleitung	Umleitungen			
+2277	X		umso				
+2278	X		umsonst				
+2279	V		umsteigen		umgestiegen	sein	
+2280	V		umtauschen		umgetauscht	haben	
+2281	N	die	Umwelt				
+2282	V		umziehen		umgezogen	sein	
+2283	N	der	Umzug	Umzüge			
+2284	X		unbedingt				
+2285	X		unfreundlich				
+2286	X		und				
+2287	N	der	Unfall	Unfälle			
+2288	X		ungefähr				
+2289	X		ungewöhnlich				
+2290	X		unglaublich				
+2291	N	das	Unglück				
+2292	X		unheimlich				
+2293	X		unten				
+2294	X		unter				
+2295	X		unter-				
+2296	V		unterbrechen		unterbrochen	haben	
+2297	V		sich unterhalten		sich unterhalten	haben	
+2298	N	die	Unterhaltung	Unterhaltungen			
+2299	N	die	Unterkunft	Unterkünfte			
+2300	N	die	Unterlagen				
+2301	V		unternehmen		unternommen	haben	
+2302	V		unterrichten		unterrichtet	haben	
+2303	N	der	Unterricht				
+2304	V		unterscheiden		unterschieden	haben	
+2305	N	der	Unterschied	Unterschiede			
+2306	X		unterschiedlich				
+2307	V		unterschreiben		unterschrieben	haben	
+2308	N	die	Unterschrift	Unterschriften			
+2309	V		unterstreichen		unterstrichen	haben	
+2310	V		unterstützen		unterstützt	haben	
+2311	N	die	Unterstützung	Unterstützungen			
+2312	V		untersuchen		untersucht	haben	
+2313	N	die	Untersuchung	Untersuchungen			
+2314	X		unterwegs				
+2315	N	der	Urlaub				
+2316	N	die	Ursache	Ursachen			
+2317	X		ursprünglich				
+2318	N	das	Urteil	Urteile			
+2319	N	der	Vater	Väter			
+2320	X		vegetarisch				
+2321	V		verabreden		verabredet	haben	
+2322	X		verabredet sein				
+2323	V		verabschieden		verabschiedet	haben	
+2324	V		verändern		verändert	haben	
+2325	N	die	Veranstaltung	Veranstaltungen			
+2326	X		verantwortlich				
+2327	N	die	Verantwortung				
+2328	V		verbessern		verbessert	haben	
+2329	V		verbieten		verboten	haben	
+2330	N	das	Verbot	Verbote			
+2331	V		verbinden		verbunden	haben	
+2332	N	der	Verband	Verbände			
+2333	N	die	Verbindung	Verbindungen			
+2334	V		verbrauchen		verbraucht	haben	
+2335	N	der	Verbraucher	Verbraucher			
+2336	N	der	Verbrecher	Verbrecher			
+2337	V		verbrennen		verbrannt	haben	
+2338	V		verbringen		verbracht	haben	
+2339	N	der	Verdacht				
+2340	X		verdächtig				
+2341	V		verdienen		verdient	haben	
+2342	N	der	Verein	Vereine			
+2343	V		vereinbaren		vereinbart	haben	
+2344	N	das	Verfallsdatum				
+2345	N	die	Vergangenheit				
+2346	V		vergessen		vergessen	haben	
+2347	V		vergleichen		verglichen	haben	
+2348	N	der	Vergleich	Vergleiche			
+2349	V		vergrößern		vergrößert	haben	
+2350	V		verhaften		verhaftet	haben	
+2351	V		verhalten		verhalten	haben	
+2352	N	das	Verhalten				
+2353	N	das	Verhältnis	Verhältnisse			
+2354	X		verheiratet				
+2355	V		verhindern		verhindert	haben	
+2356	V		verkaufen		verkauft	haben	
+2357	N	der	Verkäufer	Verkäufer			
+2358	N	der	Verkehr				
+2359	N	das	Verkehrsmittel	Verkehrsmittel			
+2360	V		verlangen		verlangt	haben	
+2361	V		verlängern		verlängert	haben	
+2362	V		verlassen		verlassen	haben	
+2363	X		sich verlassen auf				
+2364	V		sich verlaufen		sich verlaufen	haben	
+2365	V		verleihen		verliehen	haben	
+2366	V		verletzen		verletzt	haben	
+2367	N	die	Verletzung	Verletzungen			
+2368	V		verlieben		verliebt	haben	
+2369	X		verliebt sein				
+2370	V		verlieren		verloren	haben	
+2371	N	der	Verlust	Verluste			
+2372	V		vermeiden		vermieden	haben	
+2373	V		vermieten		vermietet	haben	
+2374	N	der	Vermieter	Vermieter			
+2375	V		vermissen		vermisst	haben	
+2376	N	die	Vermittlung	Vermittlungen			
+2377	X		vernünftig				
+2378	V		verpacken		verpackt	haben	
+2379	V		verpassen		verpasst	haben	
+2380	X		verpflichtet sein				
+2381	V		verreisen		verreist	sein	
+2382	X		verrückt				
+2383	V		verschieben		verschoben	haben	
+2384	X		verschieden				
+2385	V		verschreiben		verschrieben	haben	
+2386	V		verschwinden		verschwunden	sein	
+2387	V		versichern		versichert	haben	
+2388	N	die	Versichertenkarte	Versichertenkarten			
+2389	N	die	Versicherung	Versicherungen			
+2390	V		versorgen		versorgt	haben	
+2391	N	die	Verspätung	Verspätungen			
+2392	V		versprechen		versprochen	haben	
+2393	V		verstecken		versteckt	haben	
+2394	V		verstehen		verstanden	haben	
+2395	X		verständlich				
+2396	N	das	Verständnis				
+2397	V		versuchen		versucht	haben	
+2398	N	der	Versuch	Versuche			
+2399	V		verteilen		verteilt	haben	
+2400	N	der	Vertrag	Verträge			
+2401	V		vertrauen		vertraut	haben	
+2402	N	das	Vertrauen				
+2403	V		vertreten		vertreten	haben	
+2404	N	der	Vertreter	Vertreter			
+2405	N	die	Vertretung	Vertretungen			
+2406	V		verurteilen		verurteilt	haben	
+2407	N	die	Verwaltung	Verwaltungen			
+2408	X		verwandt				
+2409	N	der	Verwandte	Verwandten			
+2410	V		verwechseln		verwechselt	haben	
+2411	V		verwenden		verwendet	haben	
+2412	X		verwitwet				
+2413	N	die	Verzeihung				
+2414	X		viel/viele				
+2415	X		vielleicht				
+2416	N	das	Visum	Visa			
+2417	N	das	Vitamin	Vitamine			
+2418	N	der	Vogel	Vögel			
+2419	X		voll				
+2420	N	die	Vollzeit				
+2421	X		von				
+2422	X		voneinander				
+2423	X		vor				
+2424	X		voraus				
+2425	X		voraussichtlich				
+2426	X		vorbei				
+2427	V		vorbereiten		vorbereitet	haben	
+2428	N	die	Vorbereitung	Vorbereitungen			
+2429	X		vorder-				
+2430	N	die	Vorfahrt				
+2431	X		vorgestern				
+2432	V		vorhaben		vorgehabt	haben	
+2433	X		vorher				
+2434	X		vorhin				
+2435	X		vorig-				
+2436	V		vorkommen		vorgekommen	sein	
+2437	X		vorläufig				
+2438	V		vorlesen		vorgelesen	haben	
+2439	X		vorn/vorne				
+2440	V		sich vornehmen		sich vorgenommen	haben	
+2441	N	der	Vorort	Vororte			
+2442	V		vorschlagen		vorgeschlagen	haben	
+2443	N	der	Vorschlag	Vorschläge			
+2444	N	die	Vorschrift	Vorschriften			
+2445	N	die	Vorsicht				
+2446	X		vorsichtig				
+2447	V		vorstellen		vorgestellt	haben	
+2448	N	die	Vorstellung	Vorstellungen			
+2449	N	der	Vorteil	Vorteile			
+2450	N	die	Vorwahl	Vorwahlen			
+2451	X		vorwärts				
+2452	N	der	Vorwurf	Vorwürfe			
+2453	X		waagerecht				
+2454	X		wach				
+2455	V		wachsen		gewachsen	sein	
+2456	N	der	Wagen	Wagen			
+2457	V		wählen		gewählt	haben	
+2458	N	die	Wahl	Wahlen			
+2459	X		wahnsinnig				
+2460	X		wahr				
+2461	N	die	Wahrheit	Wahrheiten			
+2462	X		während				
+2463	X		wahrscheinlich				
+2464	N	der	Wald	Wälder			
+2465	N	die	Wand	Wände			
+2466	V		wandern		gewandert	sein	
+2467	N	die	Wanderung	Wanderungen			
+2468	X		wann				
+2469	N	die	Ware	Waren			
+2470	X		warm				
+2471	N	die	Wärme				
+2472	V		warnen		gewarnt	haben	
+2473	V		warten		gewartet	haben	
+2474	X		warum				
+2475	X		was				
+2476	X		was für ein-				
+2477	V		waschen		gewaschen	haben	
+2478	N	die	Wäsche				
+2479	N	das	Waschmittel	Waschmittel			
+2480	N	das	Wasser				
+2481	N	das	WC	WCs			
+2482	V		wechseln		gewechselt	haben	
+2483	V		wecken		geweckt	haben	
+2484	N	der	Wecker	Wecker			
+2485	X		weder … noch				
+2486	N	der	Weg	Wege			
+2487	X		weg/weg-				
+2488	X		wegen				
+2489	V		weh tun		weh getan	haben	
+2490	X		weiblich				
+2491	X		weich				
+2492	X		weil				
+2493	N	der	Wein	Weine			
+2494	V		weinen		geweint	haben	
+2495	X		weiß				
+2496	X		weit				
+2497	X		weiter/weiter-				
+2498	V		sich weiterbilden		sich weitergebildet	haben	
+2499	N	die	Weiterbildung				
+2500	X		welch-				
+2501	N	die	Welt				
+2502	N	der	Weltmeister	Weltmeister			
+2503	N	die	Weltmeisterschaft	Weltmeisterschaften			
+2504	X		weltweit				
+2505	V		wenden		gewendet	haben	
+2506	X		wenig/wenige				
+2507	X		wenigstens				
+2508	X		wenn				
+2509	X		wer				
+2510	N	die	Werbung				
+2511	V		werden		geworden	sein	
+2512	V		werfen		geworfen	haben	
+2513	N	das	Werk	Werke			
+2514	N	die	Werkstatt	Werkstätten			
+2515	N	das	Werkzeug	Werkzeuge			
+2516	X		wert				
+2517	N	der	Wert	Werte			
+2518	X		wertvoll				
+2519	X		weshalb				
+2520	N	der	Westen				
+2521	X		westlich				
+2522	N	der	Wettbewerb	Wettbewerbe			
+2523	N	das	Wetter				
+2524	N	der	Wetterbericht	Wetterberichte			
+2525	X		wichtig				
+2526	V		widersprechen		widersprochen	haben	
+2527	X		wie				
+2528	X		wieder/wieder-				
+2529	V		wiederholen		wiederholt	haben	
+2530	V		wiegen		gewogen	haben	
+2531	N	die	Wiese	Wiesen			
+2532	X		wieso				
+2533	X		wie viel/wie viele				
+2534	X		willkommen				
+2535	N	der	Wind	Winde			
+2536	X		windig				
+2537	V		winken		gewinkt	haben	
+2538	V		wirken		gewirkt	haben	
+2539	N	die	Wirkung	Wirkungen			
+2540	X		wirklich				
+2541	N	die	Wirklichkeit				
+2542	N	der	Wirt	Wirte			
+2543	N	die	Wirtschaft				
+2544	V		wissen		gewusst	haben	
+2545	N	der	Witz	Witze			
+2546	X		wo				
+2547	X		woher				
+2548	X		wohin				
+2549	X		wohl				
+2550	V		wohnen		gewohnt	haben	
+2551	N	das	Wohngeld				
+2552	N	die	Wohngemeinschaft	Wohngemeinschaften			
+2553	N	der	Wohnort	Wohnorte			
+2554	N	die	Wohnung	Wohnungen			
+2555	N	das	Wohnungsamt	Wohnungsämter			
+2556	N	das	Wohnzimmer	Wohnzimmer			
+2557	N	die	Wolke	Wolken			
+2558	N	die	Wolle				
+2559	V		wollen		gewollt/ ... wollen	haben	
+2560	X		worüber				
+2561	X		worum				
+2562	N	das	Wort	Wörter			
+2563	N	das	Wörterbuch	Wörterbücher			
+2564	N	die	Wunde	Wunden			
+2565	V		wundern		gewundert	haben	
+2566	N	das	Wunder	Wunder			
+2567	X		wunderbar				
+2568	X		wunderschön				
+2569	V		wünschen		gewünscht	haben	
+2570	N	der	Wunsch	Wünsche			
+2571	N	die	Wurst	Würste			
+2572	X		wütend				
+2573	N	die	Zahl	Zahlen			
+2574	V		zahlen		gezahlt	haben	
+2575	N	die	Zahlung	Zahlungen			
+2576	V		zählen		gezählt	haben	
+2577	N	der	Zahn	Zähne			
+2578	N	die	Zahncreme				
+2579	N	das	Zeichen	Zeichen			
+2580	N	das	Verkehrszeichen	Verkehrszeichen			
+2581	V		zeichnen		gezeichnet	haben	
+2582	V		zeigen		gezeigt	haben	
+2583	N	die	Zeit				
+2584	N	die	Zeitarbeit				
+2585	N	der	Zeitpunkt	Zeitpunkte			
+2586	X		zurzeit				
+2587	N	die	Zeitschrift	Zeitschriften			
+2588	N	die	Zeitung	Zeitungen			
+2589	N	das	Zelt	Zelte			
+2590	X		zentral				
+2591	N	das	Zentrum	Zentren			
+2592	V		zerstören		zerstört	haben	
+2593	N	das	Zertifikat	Zertifikate			
+2594	N	der	Zettel	Zettel			
+2595	N	das	Zeug				
+2596	N	der	Zeuge	Zeugen			
+2597	N	das	Zeugnis	Zeugnisse			
+2598	V		ziehen		gezogen	sein	
+2599	N	das	Ziel	Ziele			
+2600	X		ziemlich				
+2601	N	die	Zigarette	Zigaretten			
+2602	N	das	Zimmer	Zimmer			
+2603	N	die	Zinsen				
+2604	X		zirka/circa				
+2605	N	die	Zitrone	Zitronen			
+2606	N	der	Zoll	Zölle			
+2607	N	die	Zone	Zonen			
+2608	N	der	Zoo	Zoos			
+2609	X		zu				
+2610	N	der	Zucker				
+2611	X		zuerst				
+2612	N	der	Zufall	Zufälle			
+2613	X		zufällig				
+2614	X		zufrieden				
+2615	N	der	Zug	Züge			
+2616	X		zugehen				
+2617	N	das	Zuhause				
+2618	V		zuhören		zugehört	haben	
+2619	N	der	Zuhörer	Zuhörer			
+2620	N	die	Zukunft				
+2621	X		zukünftig				
+2622	V		zulassen		zugelassen	haben	
+2623	N	die	Zulassung	Zulassungen			
+2624	X		zuletzt				
+2625	V		zumachen		zugemacht	haben	
+2626	X		zumindest				
+2627	V		zunehmen		zugenommen	haben	
+2628	V		zurechtkommen		zurechtgekommen	sein	
+2629	X		zurück/zurück				
+2630	V		zusagen		zugesagt	haben	
+2631	X		zusammen/zusammen				
+2632	N	die	Zusammenarbeit				
+2633	V		zusammenfassen		zusammengefasst	haben	
+2634	X		zusätzlich				
+2635	V		zuschauen		zugeschaut	haben	
+2636	N	der	Zuschauer	Zuschauer			
+2637	V		zu sein		zu gewesen	sein	
+2638	N	der	Zustand	Zustände			
+2639	X		zuständig				
+2640	N	die	Zustimmung	Zustimmungen			
+2641	X		zuverlässig				
+2642	N	der	Zuwanderer	Zuwanderer			
+2643	X		zwar				
+2644	N	der	Zweck	Zwecke			
+2645	V		zweifeln		gezweifelt	haben	
+2646	N	die	Zwiebel	Zwiebeln			
+2647	V		zwingen		gezwungen	haben	
+2648	X		zwischen				

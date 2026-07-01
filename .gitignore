@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# Node (in case build tooling is added later)
+node_modules/
+
+# Logs
+*.log
+
+# Original source document — official Goethe-Institut/telc DTZ wordlist PDF.
+# Kept locally as reference; not redistributed (copyrighted). Remove this line
+# if your repo is private or you have the rights to publish it.
+dtz_wortliste.pdf
