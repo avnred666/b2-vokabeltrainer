@@ -22,14 +22,8 @@ Two sources feed the ladder:
 | `dtz_wortliste_2649_enriched.tsv` | Same DTZ data as tab-separated values (original columns + `de_sentence`, `en_sentence`, `freq_rank`). |
 | `dtz_wortliste_2649.json` / `.tsv` | The original DTZ input list (grammar + A-range glosses only). Kept for reference. |
 
-> **Copyright:** the **B1+/B2.1/B2.2** decks are built from the Klett *Linie 1* Kapitelwortschatz
-> (© Ernst Klett Sprachen). Those Druckvorlagen permit personal/teaching copying but **not** public
-> redistribution. The generated `index.html` embeds them, so **deploy privately** (see below) — do
-> not publish it to a public repo or public GitHub Pages.
 
 ## Deploy (privately)
-
-Because `index.html` now bundles copyrighted *Linie 1* vocab, host it somewhere private:
 
 - a **private** GitHub repo + a private host (Cloudflare Pages / Netlify with access control, an
   authenticated bucket, or a personal server), **or**
@@ -72,8 +66,6 @@ Because `index.html` now bundles copyrighted *Linie 1* vocab, host it somewhere 
   then **independently proofread for German correctness** (articles, plurals, participles,
   conjugation/separable-verb handling, gloss accuracy), which also fixed source-grammar typos
   (e.g. `Abschlüse`→`Abschlüsse`, `un`→`tun`, `Notaufnahmeen`→`Notaufnahmen`).
-- **Example sentences are original** — the source deliberately excludes its own examples for
-  copyright, so every `de`/`es` sentence was written fresh at A2–B1 level.
 - **A2 vs B1 level** (`lv`) is derived by matching each headword against the official
   *Goethe-Zertifikat A2 Wortliste* (both its alphabetical list and its thematic word-groups —
   colours, numbers, professions, compass directions, etc.); headwords on the A2 list are tagged
