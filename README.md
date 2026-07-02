@@ -2,7 +2,8 @@
 
 A self-contained, offline-capable German flashcard app with spaced repetition. It ships with
 **7,272 words** organised into a **five-level CEFR ladder — A2 · B1 · B1+ · B2.1 · B2.2** —
-each with an English meaning (the DTZ words also carry one original German example sentence + translation).
+each with an English meaning, one original German example sentence + English translation, and
+(for verbs) the Partizip II + auxiliary.
 
 Two sources feed the ladder:
 
@@ -82,7 +83,11 @@ Because `index.html` now bundles copyrighted *Linie 1* vocab, host it somewhere 
 
 **Linie 1 (B1+/B2.1/B2.2):**
 - Parsed from the Klett *Linie 1* Kapitelwortschatz, keeping lemma facts (article, plural,
-  conjugation) and dropping the source's example sentences. Each word was glossed to English and
-  filed under its course chapter. Example sentences are **not** included for these decks.
+  conjugation), glossed to English, and filed under its course chapter.
+- **Example sentences are original** (written fresh at each deck's level, workplace/everyday
+  register) with English translations — the same treatment as the DTZ decks.
+- **Partizip II + auxiliary** are filled for every verb: the free Kapitelwortschatz only prints
+  full conjugation for irregular/separable verbs, so the regular ones were completed and each
+  participle was cross-checked against a rule-based derivation.
 
 The app is robust to any entry missing a field (missing lines are simply hidden).
