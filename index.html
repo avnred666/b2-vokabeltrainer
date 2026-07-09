@@ -175,6 +175,8 @@ textarea{min-height:62px;resize:vertical;font-family:inherit}
 .switch button.on{background:var(--card);color:var(--text);box-shadow:var(--shadow)}
 .listitem{display:flex;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid var(--line)}
 .listitem:last-child{border-bottom:none}
+input.searchbox{display:block;width:100%;margin:10px 0;padding:11px 12px;border-radius:11px;
+  border:1px solid var(--line);background:var(--bg2);color:var(--text);font-size:.95rem;font-weight:500}
 .toggle{width:46px;height:28px;border-radius:999px;background:var(--line);position:relative;flex:0 0 auto;transition:background .2s}
 .toggle.on{background:var(--accent)}
 .toggle i{position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;transition:left .2s;box-shadow:0 1px 2px rgba(0,0,0,.2)}
@@ -401,8 +403,14 @@ a{color:var(--accent)}
   <section id="s-browse" class="screen">
     <div class="topbar"><button class="iconbtn" data-go="s-settings">‹</button>
       <div><h1>Your words</h1><div class="sub">edit or delete</div></div></div>
+    <div class="switch" id="browseTabs">
+      <button class="on" data-tab="mine">My words</button>
+      <button data-tab="removed">Removed</button>
+    </div>
+    <input id="browseFilter" class="searchbox" placeholder="Filter removed words…" style="display:none">
+    <button class="btn block" id="browseRestoreAll" style="display:none;margin-bottom:10px">Restore all</button>
     <div id="browseList"></div>
-    <div class="empty" id="browseEmpty"><div class="em">📭</div><p>No custom words yet.</p>
+    <div class="empty" id="browseEmpty"><div class="em">📭</div><p id="browseEmptyTxt">No custom words yet.</p>
       <button class="btn primary" id="browseAdd">＋ Add a word</button></div>
   </section>
 
@@ -436,10 +444,13 @@ a{color:var(--accent)}
       <select id="e-aux"><option value="">—</option><option>haben</option><option>sein</option></select></label>
   </div>
   <label class="fld">English meaning *<input id="e-en" autocomplete="off"></label>
+  <label class="fld">Synonyms (comma-separated)<input id="e-sy" autocomplete="off"></label>
+  <label class="fld">Antonyms (comma-separated)<input id="e-an" autocomplete="off"></label>
   <label class="fld">Example sentence (German)<textarea id="e-de"></textarea></label>
   <label class="fld">Translation (English)<textarea id="e-es"></textarea></label>
   <div class="grid2" style="margin-top:6px">
     <button class="btn" id="editDelete" style="color:var(--bad);display:none">Delete</button>
+    <button class="btn" id="editRemove" style="color:var(--bad);display:none">Remove from app</button>
     <button class="btn primary block" id="editSave" style="grid-column:1/-1">Save</button>
   </div>
 </div></div>
@@ -474,7 +485,8 @@ function norm(r){
     id: String(r.i), i: r.i, deck: deck, fr: fr, kp: (r.kp!=null? r.kp : null),
     pos: (r.w||r.pos||'X'), article: r.a||r.article||'', word: word,
     plural: r.p||r.plural||'', p2: r.p2||'', aux: r.x||r.aux||'',
-    en: (r.en||'')+'', de: (r.de||'')+'', es: (r.es||'')+'', custom: !!r.custom
+    en: (r.en||'')+'', de: (r.de||'')+'', es: (r.es||'')+'', custom: !!r.custom,
+    sy: (r.sy||'')+'', an: (r.an||'')+''
   };
 }
 
@@ -489,8 +501,17 @@ var LEVELS = {
   'B1':   {o:2, label:'DTZ · B1',                chaptered:false},
   'B1+':  {o:3, label:'Linie 1 · B1+',           chaptered:true},
   'B2.1': {o:4, label:'Linie 1 · B2.1 (Brücke)', chaptered:true},
-  'B2.2': {o:5, label:'Linie 1 · B2.2',          chaptered:true}
+  'B2.2': {o:5, label:'Linie 1 · B2.2',          chaptered:true},
+  'B2B':  {o:6, label:'Linie 1 Beruf · B2',      chaptered:true}
 };
+// chapter-order/short-code/label lookups for the letter-coded B2B decks (VP/VD/VDA)
+var KP_ORDER = {'VP':91, 'VD':92, 'VDA':93};
+var KP_LABEL = {'VP':' · Verben + Präposition', 'VD':' · Verben + Dativ', 'VDA':' · Verben + Dativ & Akk.'};
+function kpOrder(kp){
+  if(kp==null) return 0;
+  var n=parseInt(kp,10);
+  return isNaN(n)? (KP_ORDER[kp]!=null? KP_ORDER[kp] : 99) : n;
+}
 // a chaptered deck code is "<level>|<chapter>" e.g. "B2.2|9"; A2/B1 are bare "A2"/"B1"
 function deckParts(code){ var i=code.indexOf('|'); return i<0? {lvl:code, kp:null} : {lvl:code.slice(0,i), kp:code.slice(i+1)}; }
 function levelOf(code){ return LEVELS[deckParts(code).lvl]; }
@@ -499,7 +520,7 @@ function isChaptered(code){ var L=levelOf(code); return !!(L && L.chaptered); }
 function deckOrder(code){
   if(code==='★') return 99999;                               // custom last
   var pt=deckParts(code), L=LEVELS[pt.lvl];
-  if(L) return L.o*100 + (pt.kp!=null? parseInt(pt.kp,10) : 0);  // level, then chapter
+  if(L) return L.o*100 + kpOrder(pt.kp);  // level, then chapter (numeric or lettered)
   var n=parseInt(code,10); return isNaN(n)? 90000 : 9000+n;  // any legacy code last
 }
 function groupKey(c){   // cards introduced together (shuffled within, ordered across)
@@ -509,13 +530,21 @@ function groupKey(c){   // cards introduced together (shuffled within, ordered a
 function deckShort(code){
   if(code==='★') return '★';
   var pt=deckParts(code);
-  if(LEVELS[pt.lvl]) return pt.kp!=null? (pt.lvl+'·K'+pt.kp) : pt.lvl;
+  if(LEVELS[pt.lvl]){
+    if(pt.kp==null) return pt.lvl;
+    var n=parseInt(pt.kp,10);
+    return pt.lvl+'·'+(isNaN(n)? pt.kp : 'K'+pt.kp);
+  }
   return String(parseInt(code,10));
 }
 function deckLabel(code){
   if(code==='★') return 'My words';
   var pt=deckParts(code);
-  if(LEVELS[pt.lvl]) return LEVELS[pt.lvl].label + (pt.kp!=null? ' · Kapitel '+pt.kp : '');
+  if(LEVELS[pt.lvl]){
+    if(pt.kp==null) return LEVELS[pt.lvl].label;
+    var n=parseInt(pt.kp,10);
+    return LEVELS[pt.lvl].label + (isNaN(n)? (KP_LABEL[pt.kp]||'') : (' · Kapitel '+pt.kp));
+  }
   return 'Deck '+parseInt(code,10);
 }
 function shuffleWithinBand(arr){
@@ -536,9 +565,9 @@ var state = null;
 
 function freshState(){
   return {
-    version:5, srs:{}, settings:Object.assign({}, DEFAULT_SETTINGS),
+    version:6, srs:{}, settings:Object.assign({}, DEFAULT_SETTINGS),
     streak:{current:0, longest:0, last:null},
-    stats:{total:0, correct:0, days:{}}, custom:[], edits:{}
+    stats:{total:0, correct:0, days:{}}, custom:[], edits:{}, removed:{}, curationApplied:0
   };
 }
 function load(){
@@ -551,11 +580,27 @@ function load(){
       if(v < 3){ state.settings.decks = null; }        // v2->v3: deck codes changed A-Z -> frequency bands
       if(v < 4){ state.settings.decks = null; }        // v3->v4: added named Linie 1 B2 decks
       if(v < 5){ state.settings.decks = null; }        // v4->v5: DTZ split into A2/B1, Linie relabeled B1+/B2.1/B2.2 (SRS kept — keyed by stable index)
-      if(v < 5){ state.version = 5; save(); }
+      if(v < 6){ state.removed = state.removed || {}; state.curationApplied = state.curationApplied || 0; }  // v5->v6: remove-word feature
+      if(v < 6){ state.version = 6; save(); }
+      seedDefaultRemoved();
       return; }
   }catch(e){ console.warn('load failed',e); }
   state = freshState();
+  seedDefaultRemoved();
 }
+
+// Curated ids removed by default (see BERUF_B2_PLAN.md §5); reviewed TSV bakes real ids in here.
+var DEFAULT_REMOVED = [];
+var CURATION_BATCH = 1;   // bump alongside DEFAULT_REMOVED growth — only profiles behind this batch re-seed
+function seedDefaultRemoved(){
+  if(!DEFAULT_REMOVED.length) return;   // no curated batch shipped yet — never consume the counter
+  if((state.curationApplied||0) < CURATION_BATCH){
+    for(var i=0;i<DEFAULT_REMOVED.length;i++){ state.removed[DEFAULT_REMOVED[i]]=1; }
+    state.curationApplied = CURATION_BATCH;
+    save();
+  }
+}
+function isRemoved(id){ return !!state.removed[id]; }
 var saveTimer=null;
 function save(){
   try{ localStorage.setItem(LS_KEY, JSON.stringify(state)); }
@@ -619,13 +664,13 @@ var session=null;
 function deckSelected(deck){ var ds = state.settings.decks; return !ds || ds.indexOf(deck)>=0; }
 function dueCount(){
   var end = startOfDay(now())+DAY-1, c=0;
-  for(var i=0;i<POOL.length;i++){ var card=POOL[i]; if(!deckSelected(card.deck)) continue;
+  for(var i=0;i<POOL.length;i++){ var card=POOL[i]; if(!deckSelected(card.deck) || isRemoved(card.id)) continue;
     var s=state.srs[card.id]; if(s && s.seen && s.due<=end) c++; }
   return c;
 }
 function newAvailable(){
   var c=0;
-  for(var i=0;i<POOL.length;i++){ var card=POOL[i]; if(!deckSelected(card.deck)) continue;
+  for(var i=0;i<POOL.length;i++){ var card=POOL[i]; if(!deckSelected(card.deck) || isRemoved(card.id)) continue;
     var s=state.srs[card.id]; if(!s || !s.seen) c++; }
   return c;
 }
@@ -638,6 +683,7 @@ function buildSession(opts){
   var due=[], fresh=[];
   for(var i=0;i<POOL.length;i++){
     var card=POOL[i];
+    if(isRemoved(card.id)) continue;
     if(opts.decks){ if(opts.decks.indexOf(card.deck)<0) continue; }
     else if(!deckSelected(card.deck)) continue;
     var s=state.srs[card.id];
@@ -713,11 +759,12 @@ function renderHome(){
   var pct=Math.min(100, Math.round(doneToday/goal*100));
   var ring=document.getElementById('goalRing'); ring.style.setProperty('--p',pct);
   document.getElementById('goalRingTxt').textContent=pct+'%';
-  var learned=0,mature=0;
-  for(var id in state.srs){ var s=state.srs[id]; if(s.seen){ learned++; if(s.interval>=21) mature++; } }
+  var learned=0,mature=0,totalActive=0;
+  POOL.forEach(function(c){ if(isRemoved(c.id)) return; totalActive++;
+    var s=state.srs[c.id]; if(s&&s.seen){ learned++; if(s.interval>=21) mature++; } });
   document.getElementById('kpiLearned').textContent=learned;
   document.getElementById('kpiMature').textContent=mature;
-  document.getElementById('kpiTotal').textContent=POOL.length;
+  document.getElementById('kpiTotal').textContent=totalActive;
   document.getElementById('todayProg').style.width=pct+'%';
   document.getElementById('todayProgTxt').textContent=doneToday+' / '+goal+' cards today';
   document.querySelectorAll('#dirSwitch button').forEach(function(b){ b.classList.toggle('on', b.getAttribute('data-dir')===state.settings.direction); });
@@ -771,6 +818,16 @@ function finishSession(){
   showEmpty('Great job! You reviewed '+session.done+' cards.');
   renderHome();
 }
+function removeFromSession(id){    // drop a just-removed card from any in-progress session
+  if(!session) return;
+  var removedCount=0;
+  for(var i=session.queue.length-1;i>=session.pos;i--){
+    if(session.queue[i]===id){ session.queue.splice(i,1); removedCount++; }
+  }
+  if(!removedCount) return;
+  session.total = Math.max(session.done, session.total-removedCount);
+  if(current && current.id===id) nextCard(); else updateSessUI();
+}
 
 function nounHead(c){ return (c.article?('<span class="art">'+c.article+'</span> '):'')+esc(c.word); }
 function answerText(c, dir){ return dir==='de2en'? (c.en||'—') : ((c.article?c.article+' ':'')+c.word); }
@@ -788,6 +845,8 @@ function factsHtml(c){
     var aux=c.aux==='sein'?'ist':'hat';
     h+='<div class="fact"><span class="lbl">Perfect tense</span><b>'+esc(aux)+' '+esc(c.p2||'')+'</b>'+(c.aux?(' <span class="muted small">('+esc(c.aux)+')</span>'):'')+'</div>';
   }
+  if(c.sy) h+='<div class="fact"><span class="lbl">Synonyms</span><b>'+esc(c.sy)+'</b></div>';
+  if(c.an) h+='<div class="fact"><span class="lbl">Antonyms</span><b>'+esc(c.an)+'</b></div>';
   if(c.de){
     h+='<div class="fact"><span class="lbl">Example</span><div class="sent"><div class="de">'+esc(c.de)+
        '<span class="speak" data-speak="'+escAttr(c.de)+'">🔊</span></div>'+(c.es?'<div class="en">'+esc(c.es)+'</div>':'')+'</div></div>';
@@ -855,8 +914,8 @@ function renderQuiz(){
   document.getElementById('quizNext').style.display='none';
   var correct = answerText(c,dir);
   var opts=[correct];
-  var sameP = POOL.filter(function(x){ return x.id!==c.id && x.pos===c.pos && answerText(x,dir) && answerText(x,dir)!==correct; });
-  var pickFrom = sameP.length>=3? sameP : POOL.filter(function(x){ return x.id!==c.id; });
+  var sameP = POOL.filter(function(x){ return x.id!==c.id && !isRemoved(x.id) && x.pos===c.pos && answerText(x,dir) && answerText(x,dir)!==correct; });
+  var pickFrom = sameP.length>=3? sameP : POOL.filter(function(x){ return x.id!==c.id && !isRemoved(x.id); });
   shuffle(pickFrom);
   for(var i=0;i<pickFrom.length && opts.length<4;i++){
     var t=answerText(pickFrom[i],dir); if(t && opts.indexOf(t)<0) opts.push(t);
@@ -914,7 +973,7 @@ document.getElementById('studyEdit').addEventListener('click', function(){ if(cu
 var DECKS=[];
 function computeDecks(){
   var m={}, end=startOfDay(now())+DAY-1;
-  POOL.forEach(function(c){ var d=c.deck; if(!m[d]) m[d]={deck:d,total:0,due:0,newc:0,seen:0,mature:0};
+  POOL.forEach(function(c){ if(isRemoved(c.id)) return; var d=c.deck; if(!m[d]) m[d]={deck:d,total:0,due:0,newc:0,seen:0,mature:0};
     m[d].total++;
     var s=state.srs[c.id];
     if(s&&s.seen){ m[d].seen++; if(s.interval>=21) m[d].mature++; if(s.due<=end) m[d].due++; } else m[d].newc++;
@@ -962,8 +1021,8 @@ function renderDecks(){
     var el=document.createElement('button'); el.className='deck'+(on?' sel':'')+(isChaptered(d.deck)?' named':'');
     var head;
     if(isChaptered(d.deck)){
-      var pt=deckParts(d.deck);
-      head='<span class="dlvl">'+esc(pt.lvl)+'</span><b class="dnum">'+esc('K'+pt.kp)+'</b>';
+      var pt=deckParts(d.deck), kn=parseInt(pt.kp,10);
+      head='<span class="dlvl">'+esc(pt.lvl)+'</span><b class="dnum">'+esc(isNaN(kn)? pt.kp : ('K'+pt.kp))+'</b>';
     } else {
       head='<b class="dnum">'+esc(deckShort(d.deck))+'</b>';
     }
@@ -1007,7 +1066,7 @@ function renderStats(){
   var todayV=(state.stats.days[dayKey(now())]||{}).rev||0;
   document.getElementById('histLabel').textContent='Today: '+todayV+' · avg '+(Math.round(vals.reduce(function(a,o){return a+o.v;},0)/14))+'/day';
   var nw=0,lr=0,yo=0,ma=0;
-  POOL.forEach(function(c){ var s=state.srs[c.id]; if(!s||!s.seen){nw++;return;} if(s.learning||s.interval<1)lr++; else if(s.interval<21)yo++; else ma++; });
+  POOL.forEach(function(c){ if(isRemoved(c.id)) return; var s=state.srs[c.id]; if(!s||!s.seen){nw++;return;} if(s.learning||s.interval<1)lr++; else if(s.interval<21)yo++; else ma++; });
   document.getElementById('stNew').textContent=nw;
   document.getElementById('stLearning').textContent=lr;
   document.getElementById('stYoung').textContent=yo;
@@ -1022,7 +1081,7 @@ function renderSettings(){
   document.getElementById('setGoal').value=s.goal;
   setToggle('setSpeak', s.speak); setToggle('setShuffle', s.shuffleNew);
   document.querySelectorAll('#themeSwitch button').forEach(function(b){ b.classList.toggle('on', b.getAttribute('data-theme')===s.theme); });
-  document.getElementById('customCount').textContent=state.custom.length+' custom words · '+Object.keys(state.edits).length+' edited entries';
+  document.getElementById('customCount').textContent=state.custom.length+' custom words · '+Object.keys(state.edits).length+' edited entries · '+Object.keys(state.removed).length+' removed words';
 }
 function setToggle(id,on){ document.getElementById(id).classList.toggle('on',!!on); }
 function bindNum(id, key, min, max){
@@ -1042,7 +1101,8 @@ document.getElementById('themeBtn').addEventListener('click', function(){
 
 document.getElementById('exportBtn').addEventListener('click', function(){
   var payload={ app:'dtz_trainer', version:1, exportedAt:new Date().toISOString(),
-    srs:state.srs, settings:state.settings, streak:state.streak, stats:state.stats, custom:state.custom, edits:state.edits };
+    srs:state.srs, settings:state.settings, streak:state.streak, stats:state.stats, custom:state.custom, edits:state.edits,
+    removed:state.removed, curationApplied:state.curationApplied };
   var blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
   var url=URL.createObjectURL(blob); var a=document.createElement('a');
   a.href=url; a.download='dtz-progress-'+dayKey(now())+'.json'; document.body.appendChild(a); a.click();
@@ -1061,6 +1121,7 @@ document.getElementById('importFile').addEventListener('change', function(e){
       state.srs=d.srs||{}; state.settings=Object.assign({},DEFAULT_SETTINGS,d.settings||{});
       state.streak=d.streak||{current:0,longest:0,last:null}; state.stats=d.stats||{total:0,correct:0,days:{}};
       state.custom=d.custom||[]; state.edits=d.edits||{};
+      state.removed=d.removed||{}; state.curationApplied=d.curationApplied||0; seedDefaultRemoved();
       save(); buildPool(); applyTheme(); speakOn=state.settings.speak;
       go('s-home'); toast('Import successful ✓');
     }catch(err){ alert('Import failed: '+err.message); }
@@ -1084,9 +1145,12 @@ function openEdit(card){
   document.getElementById('e-p2').value = card? card.p2 : '';
   document.getElementById('e-aux').value = card? card.aux : '';
   document.getElementById('e-en').value = card? card.en : '';
+  document.getElementById('e-sy').value = card? card.sy : '';
+  document.getElementById('e-an').value = card? card.an : '';
   document.getElementById('e-de').value = card? card.de : '';
   document.getElementById('e-es').value = card? card.es : '';
   document.getElementById('editDelete').style.display = (card && card.custom)? 'block':'none';
+  document.getElementById('editRemove').style.display = (card && !card.custom)? 'block':'none';
   syncPosFields();
   document.getElementById('editModal').classList.add('show');
 }
@@ -1107,22 +1171,24 @@ document.getElementById('editSave').addEventListener('click', function(){
     word:word, pos:document.getElementById('e-pos').value,
     article:document.getElementById('e-art').value, plural:document.getElementById('e-plural').value.trim(),
     p2:document.getElementById('e-p2').value.trim(), aux:document.getElementById('e-aux').value,
-    en:en, de:document.getElementById('e-de').value.trim(), es:document.getElementById('e-es').value.trim()
+    en:en, sy:document.getElementById('e-sy').value.trim(), an:document.getElementById('e-an').value.trim(),
+    de:document.getElementById('e-de').value.trim(), es:document.getElementById('e-es').value.trim()
   };
   if(editingId && BYID[editingId] && BYID[editingId].custom){
     for(var j=0;j<state.custom.length;j++){ if(String(state.custom[j].i)===editingId){
-      Object.assign(state.custom[j], {word:data.word,d:data.word,w:data.pos,a:data.article,p:data.plural,p2:data.p2,x:data.aux,en:data.en,de:data.de,es:data.es,deck:deckOf(data.word)});
+      Object.assign(state.custom[j], {word:data.word,d:data.word,w:data.pos,a:data.article,p:data.plural,p2:data.p2,x:data.aux,en:data.en,sy:data.sy,an:data.an,de:data.de,es:data.es,deck:deckOf(data.word)});
     } }
   } else if(editingId){
     state.edits[editingId]=Object.assign({}, state.edits[editingId], data);  // keep the card's frequency deck
   } else {
     var id='u'+(Date.now())+Math.floor(Math.random()*1000);
-    state.custom.push({i:id,d:data.word,word:data.word,w:data.pos,a:data.article,p:data.plural,p2:data.p2,x:data.aux,en:data.en,de:data.de,es:data.es,deck:deckOf(data.word),custom:true});
+    state.custom.push({i:id,d:data.word,word:data.word,w:data.pos,a:data.article,p:data.plural,p2:data.p2,x:data.aux,en:data.en,sy:data.sy,an:data.an,de:data.de,es:data.es,deck:deckOf(data.word),custom:true});
   }
+  var savedId=editingId;
   save(); buildPool(); closeEdit(); toast('Saved ✓');
   if(document.getElementById('s-browse').classList.contains('active')) renderBrowse();
-  if(document.getElementById('s-study').classList.contains('active') && current && current.id===editingId){
-    current=BYID[editingId]; if(session.mode==='quiz') renderQuiz(); else renderFlash();
+  if(document.getElementById('s-study').classList.contains('active') && current && current.id===savedId){
+    current=BYID[savedId]; if(session.mode==='quiz') renderQuiz(); else renderFlash();
   }
   renderHome();
 });
@@ -1133,12 +1199,65 @@ document.getElementById('editDelete').addEventListener('click', function(){
   delete state.srs[editingId];
   save(); buildPool(); closeEdit(); renderBrowse(); toast('Deleted');
 });
+document.getElementById('editRemove').addEventListener('click', function(){
+  if(!editingId) return;
+  if(!confirm('Remove this word from the app? You can restore it later from My words → Removed.')) return;
+  state.removed[editingId]=1; save();
+  removeFromSession(editingId);
+  closeEdit(); toast('Removed — restore under My words');
+  if(document.getElementById('s-browse').classList.contains('active')) renderBrowse();
+  renderHome();
+});
 document.getElementById('addWordBtn').addEventListener('click', function(){ openEdit(null); });
 document.getElementById('browseAdd').addEventListener('click', function(){ openEdit(null); });
 document.getElementById('manageWordsBtn').addEventListener('click', function(){ go('s-browse'); });
 
+var browseTab='mine';
+document.querySelectorAll('#browseTabs button').forEach(function(b){
+  b.addEventListener('click', function(){
+    browseTab=b.getAttribute('data-tab');
+    document.querySelectorAll('#browseTabs button').forEach(function(x){ x.classList.toggle('on', x===b); });
+    document.getElementById('browseFilter').value='';
+    document.getElementById('browseFilter').style.display = browseTab==='removed'?'block':'none';
+    renderBrowse();
+  });
+});
+document.getElementById('browseFilter').addEventListener('input', renderBrowse);
+document.getElementById('browseRestoreAll').addEventListener('click', function(){
+  if(!Object.keys(state.removed).length) return;
+  if(!confirm('Restore all removed words?')) return;
+  state.removed={}; save(); renderBrowse(); renderHome(); toast('All words restored ✓');
+});
 function renderBrowse(){
+  document.querySelector('#browseTabs button[data-tab="removed"]').textContent='Removed ('+Object.keys(state.removed).length+')';
   var list=document.getElementById('browseList'); list.innerHTML='';
+  var emptyTxt=document.getElementById('browseEmptyTxt');
+  if(browseTab==='removed'){
+    document.getElementById('browseAdd').style.display='none';
+    var q=document.getElementById('browseFilter').value.trim().toLowerCase();
+    var items=Object.keys(state.removed).map(function(id){ return BYID[id]; }).filter(Boolean);
+    if(q) items=items.filter(function(c){ return (c.word||'').toLowerCase().indexOf(q)>=0 || (c.en||'').toLowerCase().indexOf(q)>=0; });
+    document.getElementById('browseRestoreAll').style.display=Object.keys(state.removed).length?'block':'none';
+    emptyTxt.textContent='No removed words.';
+    document.getElementById('browseEmpty').style.display=items.length?'none':'flex';
+    if(!items.length) return;
+    items.sort(function(a,b){ return (a.word||'').localeCompare(b.word||''); });
+    var rpanel=document.createElement('div'); rpanel.className='panel';
+    items.forEach(function(c){
+      var row=document.createElement('div'); row.className='listitem';
+      row.innerHTML='<div style="flex:1"><b>'+(c.article?esc(c.article)+' ':'')+esc(c.word)+'</b>'+
+        '<div class="small muted">'+esc(c.en||'')+' · '+esc(deckLabel(c.deck))+'</div></div><button class="pill">Restore</button>';
+      row.querySelector('button').addEventListener('click', function(){
+        delete state.removed[c.id]; save(); renderBrowse(); renderHome(); toast('Restored ✓');
+      });
+      rpanel.appendChild(row);
+    });
+    list.appendChild(rpanel);
+    return;
+  }
+  document.getElementById('browseAdd').style.display='block';
+  document.getElementById('browseRestoreAll').style.display='none';
+  emptyTxt.textContent='No custom words yet.';
   var items=state.custom.slice();
   document.getElementById('browseEmpty').style.display=items.length?'none':'flex';
   if(!items.length) return;
