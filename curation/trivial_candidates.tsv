@@ -199,18 +199,24 @@ i	word	en	lv	fr	reason
 451	Dank	thanks; gratitude	A2	198	top200
 703	Fall	case; fall	B1	199	top200
 520	egal	doesn't matter; all the same	A2	200	top200
+208	Baby	baby	A2	208	cognate
 274	bekommen	to get; receive	A2	210	a1-basic
 40	all	all	A2	213	a2-function-word
+596	Ende	end	A2	214	cognate
 2232	Tür	door	A2	221	a1-basic
 204	Auto	car	A2	222	a1-basic
 492	draußen	outside; outdoors	A2	227	a2-function-word
 114	arbeiten	to work	A2	231	a1-basic
+1522	Name	name	A2	242	cognate
 2547	woher	where from; whence	A2	249	a2-function-word
+1139	Job	job	A2	252	cognate
 2019	spielen	to play	A2	254	a1-basic
+987	Hand	hand	A2	256	cognate
 1582	oben	above; upstairs	A2	261	a2-function-word
 912	gestern	yesterday	A2	262	a2-function-word
 2480	Wasser	water	A2	269	a1-basic
 2648	zwischen	between; among	A2	294	a2-function-word
+425	Chance	chance; opportunity	B1	298	cognate
 1874	schlafen	to sleep	A2	308	a1-basic
 2293	unten	below; downstairs; at the bottom	A2	312	a2-function-word
 2223	trinken	to drink	A2	319	a1-basic
@@ -218,35 +224,143 @@ i	word	en	lv	fr	reason
 190	außer	except (for); besides	A2	341	a2-function-word
 509	dürfen	may; to be allowed to	A2	346	a1-basic
 2534	willkommen	welcome	A2	348	a2-function-word
+1672	Plan	plan; map	A2	349	cognate
 1356	lieben	to love	A2	358	a1-basic
+748	Film	film, movie	A2	365	cognate
 1148	Kaffee	coffee	A2	381	a1-basic
+2198	total	total; completely; utterly	A2	400	cognate
+1639	Party	party	A2	401	cognate
 1171	kaufen	to buy; to purchase	A2	410	a1-basic
+1791	Rest	rest; remainder; leftovers	A2	423	cognate
 1904	schreiben	to write	A2	429	a1-basic
+1652	Person	person	A2	454	cognate
 1352	lesen	to read	A2	472	a1-basic
+2148	Team	team	A2	477	cognate
 1477	mögen	to like	A2	480	a1-basic
 2183	Tisch	table	A2	492	a1-basic
+1066	Hotel	hotel	A2	498	cognate
 724	Fenster	window	A2	518	a1-basic
+1638	Partner	partner	A2	535	cognate
+752	Finger	finger	B1	538	cognate
+128	Arm	arm	A2	543	cognate
+1560	normal	normal	A2	582	cognate
+1071	Hunger	hunger	A2	587	cognate
+1370	Liste	list	B1	592	cognate
 1533	neben	next to; beside	A2	593	a2-function-word
 1367	links	to the left; on the left	A2	608	a2-function-word
+434	Computer	computer	A2	631	cognate
+942	Gold	gold	B1	637	cognate
 1753	rechts	on the right; to the right	A2	654	a2-function-word
 2550	wohnen	to live; to reside	A2	658	a1-basic
 2151	Tee	tea	A2	664	a1-basic
 1697	pro	per; for	A2	715	a2-function-word
+223	Ball	ball	A2	718	cognate
+1803	Ring	ring	A2	739	cognate
+31	aha	aha; I see	B1	758	cognate
+1633	Park	park	A2	763	cognate
+2147	Taxi	taxi; cab	A2	773	cognate
+2535	Wind	wind	A2	776	cognate
+419	Bus	bus	A2	779	cognate
+1808	Rose	rose	A2	826	cognate
+430	Club	club	A2	827	cognate
+1792	Restaurant	restaurant	A2	853	cognate
+701	fair	fair, just	B1	873	cognate
 1924	schwarz	black	A2	885	a1-basic
 1809	rot	red	A2	888	a1-basic
+1732	Radio	radio	A2	893	cognate
+2170	Test	test; exam; trial	A2	898	cognate
 1454	Milch	milk	A2	923	a1-basic
 1221	kochen	to cook; to boil	A2	924	a1-basic
+2470	warm	warm; hot	A2	936	cognate
 2112	Stuhl	chair	A2	957	a1-basic
+38	Alarm	alarm	B1	1038	cognate
 401	Brot	bread	A2	1072	a1-basic
+2054	Station	station; stop; ward	B1	1073	cognate
 364	blau	blue	A2	1081	a1-basic
+840	Gas	gas	B1	1095	cognate
+1825	Sack	sack; bag	B1	1118	cognate
+986	Hammer	hammer	B1	1145	cognate
+1114	Internet	internet	A2	1146	cognate
 527	Ei	egg	A2	1166	a1-basic
+2103	Stress	stress	B1	1169	cognate
 957	grün	green	A2	1179	a1-basic
+2207	Training	training; practice; workout	A2	1228	cognate
+2199	Tour	tour; trip; outing	A2	1233	cognate
+2025	Sport	sport; exercise	A2	1256	cognate
+2172	Text	text; passage; lyrics	A2	1257	cognate
+2053	Start	start	B1	1273	cognate
+1836	Sand	sand	B1	1274	cognate
+709	Fan	fan	A2	1284	cognate
+835	Garage	garage	A2	1289	cognate
 549	einig-	some; a few (pronoun/adjective prefix)	A2	1303	a2-function-word
+1069	Humor	humor; sense of humor	B1	1320	cognate
+2110	Studio	studio	B1	1322	cognate
+1616	Original	original	B1	1324	cognate
+432	Couch	couch; sofa	B1	1372	cognate
+1496	Museum	museum	A2	1392	cognate
+1080	illegal	illegal	B1	1421	cognate
+108	Apartment	apartment	B1	1437	cognate
+1601	online	online	A2	1441	cognate
+1117	Interview	interview	A2	1443	cognate
+2206	Trainer	trainer; coach; instructor	B1	1448	cognate
+421	Café	café; coffee shop	A2	1503	cognate
+1105	intelligent	intelligent; clever	A2	1543	cognate
+1446	Methode	method; approach; technique	B1	1546	cognate
+1978	Sofa	sofa; couch	A2	1561	cognate
+420	Butter	butter	A2	1562	cognate
+1309	Lampe	lamp; light	A2	1585	cognate
+1957	Service	service	A2	1602	cognate
+590	E-Mail	email	B1	1607	cognate
+2608	Zoo	zoo	A2	1608	cognate
+2177	Ticket	ticket	A2	1612	cognate
 1432	meist-	most; the most	A2	1615	a2-function-word
 109	Apfel	apple	A2	1628	a1-basic
+755	fit	fit, in good shape	A2	1652	cognate
+2059	Steak	steak	B1	1655	cognate
+431	Cola	cola; Coke	B1	1678	cognate
+209	Babysitter	babysitter	A2	1682	cognate
+1668	Pille	pill; tablet	B1	1683	cognate
+2209	Transport	transport; shipment	B1	1686	cognate
+2230	T-Shirt	T-shirt	A2	1712	cognate
 871	gelb	yellow	A2	1718	a1-basic
+1608	Orange	orange	A2	1728	cognate
 386	braun	brown	A2	1748	a1-basic
+1050	Hobby	hobby	A2	1785	cognate
+369	blond	blond; fair-haired	A2	1814	cognate
+1130	Jeans	jeans	A2	1817	cognate
+1830	Salon	salon; lounge	B1	1826	cognate
+583	elegant	elegant; stylish	B1	1851	cognate
+1078	ideal	ideal; perfect	B1	1863	cognate
+1141	Journalist	journalist	A2	1879	cognate
 947	grau	gray	A2	1895	a1-basic
+1048	Hit	hit; pop hit	B1	1897	cognate
+2165	Tennis	tennis	A2	1949	cognate
+1950	Semester	semester	B1	1974	cognate
+1186	Kindergarten	kindergarten	B1	1977	cognate
+1980	Software	software	B1	1989	cognate
+1101	Instrument	instrument	A2	2006	cognate
+361	bitter	bitter	A2	2032	cognate
+1127	Jazz	jazz	B1	2039	cognate
+1476	modern	modern; up to date	A2	2042	cognate
+1483	Monitor	monitor; screen	B1	2047	cognate
+951	Grill	grill; barbecue	B1	2054	cognate
+513	DVD	DVD	B1	2070	cognate
+1682	Portion	portion; serving	A2	2104	cognate
+1976	Socke	sock	B1	2138	cognate
+1972	Ski	ski	A2	2153	cognate
+1994	Souvenir	souvenir	B1	2236	cognate
+717	Fax	fax	B1	2248	cognate
+2201	Tourist	tourist	A2	2288	cognate
 1402	manch-	some; many a; certain	A2	2320	a2-function-word
+46	Alphabet	alphabet	B1	2324	cognate
 412	bunt	colorful; multicolored	A2	2356	a1-basic
+2417	Vitamin	vitamin	B1	2358	cognate
+1191	Kiosk	kiosk; newsstand	A2	2410	cognate
+756	Fitness	fitness, physical condition	B1	2411	cognate
+1896	Schnitzel	schnitzel; cutlet	B1	2413	cognate
+422	Camping	camping	B1	2419	cognate
+1455	mild	mild; gentle; lenient	B1	2433	cognate
 61	ander-	other	A2	2519	a2-function-word
+1409	Margarine	margarine	B1	2564	cognate
+424	CD-ROM	CD-ROM	B1	2580	cognate
+1116	Internetcafé	internet café	B1	2604	cognate
