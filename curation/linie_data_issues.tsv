@@ -11,8 +11,8 @@ i	deck	word	en	issue	status
 6748	B2.2|14	Schnabel gewachsen ist	(idiom completion) as one's beak has grown; speak plainly	fragment of the idiom "wie einem der Schnabel gewachsen ist"; incomplete headword	fixed in place (Prompt 10): d="wie einem der Schnabel gewachsen ist"
 6896	B2.2|15	Schuhe schieben	shift the blame (onto sb)	likely truncated from "jemandem etwas in die Schuhe schieben"; incomplete headword	fixed in place (Prompt 10): d="jemandem etwas in die Schuhe schieben"
 3966	B2.1|3	ausgefallen.	broken down; out of order	stray trailing period in headword	fixed in place (Prompt 10): d="ausgefallen"
-3458	B2.1|1	ernwortschatz	vocabulary to learn	OCR truncation; missing leading "L" -- should read "Lernwortschatz"	open, not yet fixed
-3678	B2.1|2	as Marketing	marketing	OCR truncation; missing leading "D" -- should read "das Marketing"	open, not yet fixed
-3626	B2.1|2	Versprechen	promise	neuter noun ("das Versprechen") missing its `a` article field	open, not yet fixed
-3824	B2.1|2	Mitte	middle, center	feminine noun ("die Mitte") missing its `a` article field	open, not yet fixed
-6769	B2.2|14	Haltestelle D	(bus/tram) stop	4th textbook section-break label found as a vocab card (same class as Haltestelle B/C/E above) -- discovered during a later completeness scan	open, not yet fixed
+3458	B2.1|1	ernwortschatz	vocabulary to learn	OCR truncation; missing leading "L" -- should read "Lernwortschatz"	fixed in place: d="Lernwortschatz", a="der"
+3678	B2.1|2	as Marketing	marketing	OCR truncation; missing leading "D" -- should read "das Marketing"	fixed in place: d="Marketing", a="das"
+3626	B2.1|2	Versprechen	promise	neuter noun ("das Versprechen") missing its `a` article field	fixed in place: a="das"
+3824	B2.1|2	Mitte	middle, center	feminine noun ("die Mitte") missing its `a` article field	fixed in place: a="die"
+6769	B2.2|14	Haltestelle D	(bus/tram) stop	4th textbook section-break label found as a vocab card (same class as Haltestelle B/C/E above) -- discovered during a later completeness scan	removed (DEFAULT_REMOVED)
