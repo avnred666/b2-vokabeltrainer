@@ -95,5 +95,10 @@
 {"kp":2,"w":"N","a":"die","d":"Diskriminierung","p":"Diskriminierungen"},
 {"kp":2,"w":"V","d":"angeben"},
 {"kp":2,"w":"N","a":"die","d":"Pflicht","p":"Pflichten"},
-{"kp":2,"w":"V","d":"einführen"}
+{"kp":2,"w":"V","d":"einführen"},
+{"kp":2,"w":"N","a":"das","d":"Dokument","p":"Dokumente"},
+{"kp":2,"w":"V","d":"verweisen"},
+{"kp":2,"w":"N","a":"die","d":"Lücke","p":"Lücken"},
+{"kp":2,"w":"N","a":"das","d":"Stichwort","p":"Stichwörter"},
+{"kp":2,"w":"N","a":"die","d":"Vorlage","p":"Vorlagen"}
 ]
